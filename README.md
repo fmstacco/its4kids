@@ -67,6 +67,40 @@ Colour Palette image
 <img src="./documentation/readme-images/color-palette.jpg" alt="Colour Palette image">
 
 
+### Data Model
+
+
+
+#### Post Model
+
+| Key | Name | Type
+|-----|----------------|------------------|
+| foreign key | author | User Model
+| | title (unique) | Char[200]
+| | created_date | DateTime
+| | updated_date | DateTime
+| | content | TextField
+| | featured_image | Cloudinary_image
+| | excerpt | TextField
+| many-to-many | likes | User Model
+| label for url | slug (unique) | SlugField
+| | status | Integer
+
+#### Comment model
+
+
+#### Profile model
+
+
+
+
+
+
+
+
+
+
+
 # Acknowledgements
 
 Its4kids was designed and developed for Portfolio 4 project, a requirement of Full Stack Software Developer Diploma Course (Eccommerce) at the [Code Institute](https://codeinstitute.net/). I would like to thank my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/), my Cohort facilitators, my Cohort colleagues, the Slack community, the Tutor Support and a big thanks to Bethany from the Student care for all support during this journey. I am also thankful to the ***Mayo, Sligo and Leitrim Education Training Board (msletb)*** for this opportunity. I  would also like to say thank you to my family, my husband Michel and, my children, Alanna, and Peter who is just 11 months old at the time of this project submission. 
