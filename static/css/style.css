@@ -11,6 +11,15 @@ body {
     background-color: #f7f6f5;
 }
 
+.title {
+    font-size: clamp(2.5rem, 2vw, 3rem);
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
 .brand {
     font-family: Montserrat, sans-serif;
     font-size: 1.4rem;
@@ -52,7 +61,7 @@ body {
     bottom: 5%;
     min-width: 30%;
     left: -2px;
-    background-color: #23BBBB;
+    background-color: #009fe3;
 }
 
 .author {
@@ -116,18 +125,18 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #009fe3;
     color: #fff;
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: #fff;
-    color: #23BBBB;
+    color: #009fe3;
 }
 
 .link {
-    color: #23BBBB;
+    color: #009fe3;
     text-decoration: none;
 }
 

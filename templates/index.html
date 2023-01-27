@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<!-- HERO SECTION -->
+<!-- Hero Section -->
 <section id="hero">
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -18,7 +18,7 @@
                     <div class="carousel-caption text-start">
                         <h2>Activities for Children</h2>
                         <p>Make memories with your kids</p>
-                        <p><a class="btn btn-lg btn-primary mt-4" href="#" aria-label="Go to the content home section">Explore</a></p>
+                        <p><a class="btn btn-lg btn-primary mt-4" href="#content" aria-label="Go to the content home section">Explore</a></p>
                     </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                     <div class="carousel-caption text-start">
                         <h2 class="">Play Ideas for children</h2>
                         <p>Get and share ideas of activities!!</p>
-                        <p><a class="btn btn-lg btn-primary mt-4" href="#" aria-label="Go to the content home section">Explore</a></p>
+                        <p><a class="btn btn-lg btn-primary mt-4" href="#content" aria-label="Go to the content home section">Explore</a></p>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                     <div class="carousel-caption text-start">
                         <h2>Play with your child</h2>
                         <p>Indoor and Outdoor activities ideas!</p>
-                        <p><a class="btn btn-lg btn-primary mt-4" href="#" aria-label="Go to the content home section">Explore</a></p>
+                        <p><a class="btn btn-lg btn-primary mt-4" href="#content" aria-label="Go to the content home section">Explore</a></p>
                     </div>
                 </div>
             </div>
@@ -53,11 +53,13 @@
         </button>
     </div>
 </section>
-<!-- END OF HERO SECTION -->
+<!-- End of Hero Section -->
 </div>
 
 
  <!-- Blog Entries Column -->
+ <section id="content" class="content">
+    <h2 class="title">Activities Ideas</h2>
  <div class="col-12 mt-3 left">
     <div class="row">
         {% for post in post_list %}
@@ -108,7 +110,7 @@
 </nav>
 {% endif %}
 </div>
-
+</section>
 
 
 {%endblock%}
