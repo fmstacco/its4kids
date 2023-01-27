@@ -224,10 +224,10 @@ body {
 }
 
 #hero .carousel-caption h2 {
-    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-size: clamp(2.5rem, 2vw, 3rem);
     letter-spacing: 2px;
     font-family: Montserrat, sans-serif;
-    font-weight: 700;
+    font-weight: 900;
 
 }
 
@@ -236,7 +236,7 @@ body {
     font-size: clamp(1.3rem, 2vw, 2.5rem);
     letter-spacing: 2px;
     font-family: Montserrat, sans-serif;
-    font-weight:bolder;
+    font-weight:900;
 
 }
 
