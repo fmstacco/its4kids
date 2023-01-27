@@ -94,11 +94,12 @@ Colour Palette image
 
 
 
+# Credits
 
-
-
-
-
+* [I Think therefore I Blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) - this project was created based on the walkthrough I think therefore I Blog.
+* [Tasty Blog](https://github.com/PedroCristo/portfolio_project_4) - this project inspired me and I borrow some of the code for the hero section carousel.
+* [Location Blog](https://github.com/DionneMaguire/locationblog) - this project also inspired me.
+* [Unplash](https://unsplash.com/) - I got pictures for hero carousel and the blog posts.
 
 
 # Acknowledgements
