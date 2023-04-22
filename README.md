@@ -54,7 +54,7 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
 
  The logo was designed on [Canva](https://www.canva.com/en_gb/) version Pro. A painted children hands icon was chosen to convey the core concept of children playing and also a community ethos. 
 
-![Its4kids logo](./documentation/readme-images/Its4kids-logo.png) 
+![Its4kids logo](./static/images/readme/its4kids-logo.png) 
 
  * ### Typography
  
@@ -64,7 +64,7 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
 
 Colour Palette image
 
-<img src="./documentation/readme-images/color-palette.jpg" alt="Colour Palette image">
+<img src="./static/images/readme/color-palette.jpg" alt="Colour Palette image">
 
 
 ### Data Model
@@ -91,8 +91,23 @@ Colour Palette image
 
 #### Profile model
 
+## Deployment
 
+### **Forking this repository on GitHub**
 
+A fork of this repository can be made which will allow you to make changes to this project without affecting the original repository. 
+
+The steps below should be followed to ***fork*** the respository:
+
+1. Log in to ***GitHub*** and find the [repository](https://github.com/fmstacco/its4kids-blog).
+
+2. Click on the button ***fork*** on the right-hand side of the page to create a copy of the original repository in your GitHub account.
+
+See the image below:
+
+![GitHub pages - to fork a depository](./static/images/readme/fork.jpg)
+
+[Back to top](<#contents>)
 
 # Credits
 
