@@ -91,6 +91,34 @@ Colour Palette image
 
 #### Profile model
 
+## Technologies Used
+
+### Languages
+
+* [HTML 5](https://en.wikipedia.org/wiki/HTML/)
+* [CSS 3](https://en.wikipedia.org/wiki/CSS)
+* [JavaScript](https://www.javascript.com/)
+* [Python](https://www.python.org/)
+
+### Frameworks and supporting libraries other programs 
+
+* [Django](https://www.djangoproject.com/)
+* [Bootstrap](https://getbootstrap.com/) was used to style the website, easily add responsiveness and interactivity.
+* [Gunicorn](https://gunicorn.org/) as the server for Heroku.
+* [Cloudinary](https://cloudinary.com/) was used to host the static files and media.
+* [Psycopg2](https://pypi.org/project/psycopg2/) As an adaptor for Python and PostgreSQL databases.
+* [Summernote](https://summernote.org/) as a text editor.
+* [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) was used for authentication, registration, account management.
+* [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style the forms.
+* [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - to push changes to the GitHub repository.
+* [GitHub](https://github.com/) - to host the repositories.
+* [Gitpod](https://www.gitpod.io/) - as the IDE for the application.
+* [Heroku](https://www.heroku.com/) to deploy the project.
+* [PEP8](http://pep8online.com/) - for testing and validating the code.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS.
+* [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
+* [CANVA](https://www.canva.com/) - to create the logo for the project.
+
 ## Deployment
 
 ### **Forking this repository on GitHub**
