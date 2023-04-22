@@ -109,6 +109,30 @@ See the image below:
 
 [Back to top](<#contents>)
 
+### **Cloning this project on GitHub**
+
+The steps below should be followed to ***clone*** the respository:
+
+1. On the repository’s page, click on the ***code*** tab.
+2. On the ***Clone with HTTPS*** tab, click on the icon (see image below) to copy the URL.
+
+![Image to clone a repository](./static/images/readme/clone.jpg)
+
+3. Open ***Git Bash*** on your IDE terminal.
+4. Change the current working directory to the location where you want the cloned directory.
+5. Type ***git clone***, and then paste the URL copied from GitHub.
+
+Type: git clone + https://github.com/fmstacco/its4kids-blog.git
+
+
+6. Press ***enter*** and the local clone will be created.
+
+
+Help on cloning a repository from GitHub can be found [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+
+[Back to top](<#contents>)
+
 # Credits
 
 * [I Think therefore I Blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) - this project was created based on the walkthrough I think therefore I Blog.
