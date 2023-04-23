@@ -124,27 +124,27 @@ Colour Palette image
 
 ### Initial Deployment
 
-#### Github, Django, and Heroku
+The deployment process was done mainly following the steps provided by the Code Institute through the walkthrough **I think therefore I blog** and the [Django Blog Cheat Sheet](https://docs.google.com/document/d/1P5CWvS5cYalkQOLeQiijpSViDPogtKM7ZGyqK-yehhQ/edit#heading=h.5s9novsydyp1):
 
 
-1. A new repository called Its4kids was created on [GitHub](https://github.com/) using the [Code Institute full template](https://github.com/Code-Institute-Org/gitpod-full-template).
+1. A new repository called its4kids-blog was created on [GitHub](https://github.com/) using the [Code Institute full template](https://github.com/Code-Institute-Org/gitpod-full-template).
 2. A new workspace was created in Gitpod by clicking to the green ‘Gitpod’ button.
-
-
-
-
+3. Django and supporting libraries were installed.
+4. An external database was created on [ElephantSQL](elephantsql.com) 
+5. An app was created deployed to [Heroku](heroku.com).
+6. The static and media files were stored on [Cloudinary](Cloudinary.com.)
 
 ### Final Deployment 
 
 The final deployment was conducted following the steps below:
 
-1. The *settings.py* file was changed as below and the changes were commited:
+1. The **settings.py** file was changed as below and the changes were commited:
 
 DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN' 
 
-2. In *Heroku* website I revealed the config vars and deleted as below:
+2. In **Heroku** website I revealed the config vars and deleted as below:
 
 DISABLE_COLLECTSTATIC = 1
 
