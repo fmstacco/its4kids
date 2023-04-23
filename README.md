@@ -119,8 +119,26 @@ Colour Palette image
 * [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
 * [CANVA](https://www.canva.com/) to create the logo, color palete (Pro version) 
 
-## Deployment
 
+## Testing
+
+### Code Validation
+
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) will be used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) will be used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [PEP8](http://ww1.pep8online.com/) to validate Python and also manual tests will be carried on. 
+
+**HTML validation** 
+
+[W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML. The bugs will be correct for the next submission.
+
+* Its4kids blog Home Page
+
+![Home Page - HTML validation image ](./static/images/readme/html-bug-unfixed.png) 
+
+
+
+
+
+## Deployment
 
 ### Initial Deployment
 
