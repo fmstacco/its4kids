@@ -102,24 +102,54 @@ Colour Palette image
 
 ### Frameworks and supporting libraries other programs 
 
-* [Django](https://www.djangoproject.com/)
+* [Django](https://www.djangoproject.com/) as the framework to build the blog.
 * [Bootstrap](https://getbootstrap.com/) was used to style the website, easily add responsiveness and interactivity.
 * [Gunicorn](https://gunicorn.org/) as the server for Heroku.
 * [Cloudinary](https://cloudinary.com/) was used to host the static files and media.
-* [Psycopg2](https://pypi.org/project/psycopg2/) As an adaptor for Python and PostgreSQL databases.
+* [Psycopg2](https://pypi.org/project/psycopg2/) was used for Python and PostgreSQL databases.
 * [Summernote](https://summernote.org/) as a text editor.
 * [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) was used for authentication, registration, account management.
 * [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) to style the forms.
-* [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - to push changes to the GitHub repository.
-* [GitHub](https://github.com/) - to host the repositories.
-* [Gitpod](https://www.gitpod.io/) - as the IDE for the application.
+* [Gitbash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) to push changes to the GitHub repository.
+* [GitHub](https://github.com/) to host the repositories.
+* [Gitpod](https://www.gitpod.io/) as the IDE for the application.
 * [Heroku](https://www.heroku.com/) to deploy the project.
-* [PEP8](http://pep8online.com/) - for testing and validating the code.
+* [PEP8](http://pep8online.com/) for testing and validating the code.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - to validate the CSS.
 * [W3C HTML Validator](https://validator.w3.org/) - to validate the HTML.
-* [CANVA](https://www.canva.com/) - to create the logo for the project.
+* [CANVA](https://www.canva.com/) to create the logo, color palete (Pro version) 
 
 ## Deployment
+
+
+### Initial Deployment
+
+#### Github, Django, and Heroku
+
+
+1. A new repository called Its4kids was created on [GitHub](https://github.com/) using the [Code Institute full template](https://github.com/Code-Institute-Org/gitpod-full-template).
+2. A new workspace was created in Gitpod by clicking to the green ‘Gitpod’ button.
+
+
+
+
+
+### Final Deployment 
+
+The final deployment was conducted following the steps below:
+
+1. The *settings.py* file was changed as below and the changes were commited:
+
+DEBUG = False
+
+X_FRAME_OPTIONS = 'SAMEORIGIN' 
+
+2. In *Heroku* website I revealed the config vars and deleted as below:
+
+DISABLE_COLLECTSTATIC = 1
+
+3. Then I deployed the branch and opened the website app which was deployed successfully. 
+
 
 ### **Forking this repository on GitHub**
 
