@@ -40,6 +40,33 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
 *  [**Acknowledgements**](<#acknowledgements>)
 
 
+## Wireframes 
+
+The wireframes for Its4kids website were developed on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the blog. 
+
+
+<details><summary><b>Home</b></summary>
+
+<img src="./static/images/readme/Its4kids-home.png" alt="Home Page Wireframe"></details>
+
+
+<details><summary><b>Post Detail</b></summary>
+
+<img src="./static/images/readme/Its4kids-post_detail.png" alt="Post Detail page Wireframe"></details>
+ 
+
+<details><summary><b>Add Post</b></summary>
+
+<img src="./static/images/readme/Its4kids_Add_Post.png" alt="Add Post page Wireframe"></details>
+
+
+<details><summary><b>Profile</b></summary>
+
+<img src="./static/images/readme/Its4kids_Profile.png" alt="Profile page Wireframe"></details>
+
+
+
+
 ## User Stories
 
 
