@@ -1,0 +1,54 @@
+
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-12 mt-3 left">
+            <div class="row">
+                <h1> {{ blog }} </h1>
+                {% for post in post_list %}
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="image-container">
+                                {% if 'placeholder' in post.featured_image.url %}
+                                {% else %}
+                                <img class="card-img-top" src=" {{ post.featured_image.url }}" alt="Uploaded image">
+                                {% endif %}
+                                <div class="image-flash">
+                                    <p class="author">Author: {{ post.author }}</p>
+                                </div>
+                            </div>
+                            <a href="{% url 'post_detail' post.slug  %}" class="post-link">
+                                <p class="card-text h6 mt-2">
+                                </p>
+
+                                <h2 class="card-title mt-4">{{ post.title | truncatechars:40 }}</h2>
+                                <!-- Display post content, 30 characters and appends an ellipsis if no excerpt provided -->
+                                {% if post.excerpt %}
+                                <p class="card-text">{{ post.excerpt }}</p>
+                                {% else %}
+                                <p class="card-text">{{ post.content | striptags | truncatechars:30 }}</p>
+                                {% endif %}
+                            </a>
+                            <hr>
+                            <p class="card-text text-muted h6">{{ post.created_on }} <i class="far fa-heart"></i>
+                                {{ post.number_of_likes }} ; <i class="far fa-comments"></i>
+                                {{ post.comments.count }}</p>
+                        </div>
+                    </div>
+                </div>
+                
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+   
+</div>
+
+{% endblock %}

@@ -45,6 +45,9 @@
                         <a class="nav-link {% if request.path == '/' %}active{% endif %}"
                             href="{% url 'home' %}">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'blog' %}">Activities list</a>
+                    </li> 
                                         {% if user.is_authenticated %}
                      <li class="nav-item">
                         <a class="nav-link" href="{% url 'profiles:profile' %}">Profile</a>
@@ -54,6 +57,7 @@
                     </li>
                    
                     {% else %}
+                 
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
                     </li>

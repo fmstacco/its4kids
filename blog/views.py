@@ -77,3 +77,11 @@ class PostLike(View):
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
 
 
+class ActivitiesView(generic.ListView):
+    """
+    Displays all activities posts in a page
+    """
+    model = Post
+    queryset = Post.objects.filter(status=1).order_by('-created_on')
+    template_name = 'blog.html'
+    paginate_by = 9
