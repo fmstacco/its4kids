@@ -1,7 +1,8 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
+from django.views.generic import DetailView
 from django.http import HttpResponseRedirect
-from .models import Post
+from .models import Category, Post
 from .forms import CommentForm
 
 
@@ -85,3 +86,18 @@ class ActivitiesView(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'blog.html'
     paginate_by = 9
+
+
+class CategoryPostsView(DetailView):
+    """
+    Displays all categories in a page
+    """
+    model = Category
+    template_name = 'category_posts.html'
+    context_object_name = 'category'
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        posts = Post.objects.filter(category=self.object)
+        context['posts'] = posts
+        return context
