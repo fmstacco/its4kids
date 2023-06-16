@@ -31,7 +31,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['its4kids.herokuapp.com', 'localhost', '8000-fmstacco-its4kidsblog-yrt6lr2m6nc.ws-eu99.gitpod.io']
+ALLOWED_HOSTS = ['its4kids.herokuapp.com', 'localhost', '8000-fmstacco-its4kidsblog-yrt6lr2m6nc.ws-eu100.gitpod.io']
 
 
 # Application definition
