@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
-from django.views.generic import DetailView
+from django.views.generic import DetailView, CreateView
 from django.http import HttpResponseRedirect
 from .models import Category, Post
 from .forms import CommentForm
@@ -86,5 +86,15 @@ class ActivitiesView(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'blog.html'
     paginate_by = 9
+
+
+class AddPostView(CreateView):
+    """
+    Logged users can add a post / activity to the blog
+    """
+    
+    model = Post
+    template_name = 'add_post.html'
+    fields = 'title', 'category', 'featured_image', 'content'
 
 
