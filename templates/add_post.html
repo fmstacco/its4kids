@@ -1,7 +1,21 @@
 {% extends "base.html" %} 
+{% load static %}
 
 {% block content %} 
 
-<h1>Add Post</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+            <h1>Add an Activity for children ...</h1>
+            <p>Here you can share your activities or children.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2"> 
+           <form method="POST">
+            {% csrf_token %}
+            {{ form.as_p}}
+        <button class= "btn btn-secondary">Post</button>
+    </form>
 
 {%endblock%}
