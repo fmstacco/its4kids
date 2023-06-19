@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <h1>Posts in Category: {{ category.name }}</h1>
+    {% for post in posts_list %}
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+        <!-- Display other post details as needed -->
+    {% empty %}
+        <p>No posts found in this category.</p>
+    {% endfor %}
+{% endblock %}

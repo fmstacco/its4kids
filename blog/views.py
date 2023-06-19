@@ -10,7 +10,7 @@ class PostList(generic.ListView):
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "index.html"
-    paginate_by = 6
+    paginate_by = 9
 
 
 class PostDetail(View):
@@ -88,16 +88,3 @@ class ActivitiesView(generic.ListView):
     paginate_by = 9
 
 
-class CategoryPostsView(DetailView):
-    """
-    Displays all categories in a page
-    """
-    model = Category
-    template_name = 'category_posts.html'
-    context_object_name = 'category'
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        posts = Post.objects.filter(category=self.object)
-        context['posts'] = posts
-        return context
