@@ -151,16 +151,23 @@ Colour Palette image
 
 ### Code Validation
 
-The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) will be used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) will be used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [PEP8](http://ww1.pep8online.com/) to validate Python and also manual tests will be carried on. 
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [PEP8](http://ww1.pep8online.com/) to validate Python. Additional manual tests has been carried on. 
 
 **HTML validation** 
 
-[W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML. The bugs will be correct for the next submission.
+[W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML. 
 
-* Its4kids blog Home Page
+![HTML validation image ](./static/images/readme/w3-html-validator.jpg) 
 
 
-![Home Page - HTML validation image ](./static/images/readme/w3-html-validator.jpg) 
+**CSS validation** 
+
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS. 
+
+![HTML validation image ](./static/images/readme/w3-html-validator.jpg) 
+
+
+
 
 
 ### Bugs Fixed
