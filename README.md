@@ -159,7 +159,13 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) will be used to va
 
 * Its4kids blog Home Page
 
-![Home Page - HTML validation image ](./static/images/readme/html-bug-unfixed.png) 
+
+![Home Page - HTML validation image ](./static/images/readme/w3-html-validator.jpg) 
+
+
+### Bugs Fixed
+
+![Home Page - Bugs Fixed ](./static/images/readme/html-bugs-fixed.png) 
 
 
 
