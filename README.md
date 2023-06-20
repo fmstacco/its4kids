@@ -164,7 +164,7 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to v
 
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS. 
 
-![HTML validation image ](./static/images/readme/w3-html-validator.jpg) 
+![CSS validation image ](./static/images/readme/w3-css-validator.jpg) 
 
 
 
