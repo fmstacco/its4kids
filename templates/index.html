@@ -68,10 +68,12 @@
                 <div class="card-body">
                     <div class="image-container">
                         {% if "placeholder" in post.featured_image.url %}
-                        <img class="card-img-top"
-                            src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                        <img class="card-img-top" 
+                            src="https://res.cloudinary.com/duexvmpkh/image/upload/v1687261323/Untitled_design_13_lgmmgg.jpg"
+                            alt = "children playing with blocks">
                         {% else %}
-                        <img class="card-img-top" src=" {{ post.featured_image.url }}">
+                        <img class="card-img-top" src=" {{ post.featured_image.url }}"
+                        alt = "children playing">
                         {% endif %}
                         <div class="image-flash">
                             <p class="author">Author: {{ post.author }}</p>
