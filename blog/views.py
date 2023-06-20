@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import UserPassesTestMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, CreateView
@@ -107,4 +108,27 @@ class AddPostView(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
             form.instance.status = int(self.request.POST.get('status'))
         form.instance.author = self.request.user
         messages.success(self.request, "Post added and waiting for approval")
+        return super().form_valid(form)
+
+
+class UpdatePostView(UserPassesTestMixin, SuccessMessageMixin, generic.UpdateView):
+    """
+    Logged users can update a post / activity they posted the blog
+    """
+    
+    model = Post
+    template_name = 'update_post.html'
+    fields = 'title', 'category', 'featured_image', 'content',
+    success_message = "Post updated successfully!"
+
+    def get_object(self):
+        return get_object_or_404(Post, slug=self.kwargs.get('slug'))
+
+    def test_func(self):
+        obj = self.get_object()
+        return self.request.user == obj.author
+
+    def form_valid(self, form):
+        form.instance.author = self.request.user
+        messages.info(self.request, "Post updated successfully")
         return super().form_valid(form)
