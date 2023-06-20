@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'blog',
     'profiles',
     'autoslug',
+    
 ]
 
 SITE_ID = 1

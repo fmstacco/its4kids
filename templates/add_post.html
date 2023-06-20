@@ -12,9 +12,15 @@
     </div>
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2"> 
-           <form method="POST">
+           <form method="POST" enctype="multipart/form-data">
             {% csrf_token %}
             {{ form.as_p}}
+            {% if request.user.is_superuser %}
+            <select name="status" required>
+                <option value="0" selected>Draft</option>
+                <option value="1">Published</option>
+            </select>
+            {% endif %}
         <button class= "btn btn-secondary">Post</button>
     </form>
 
