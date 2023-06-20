@@ -5,7 +5,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.mixins import UserPassesTestMixin
 from django.contrib.messages.views import SuccessMessageMixin
 from django.urls import reverse_lazy
-from django.views.generic import DetailView, CreateView
+from django.views.generic import DetailView, CreateView, DeleteView
 from django.http import HttpResponseRedirect
 from .models import Category, Post
 from .forms import CommentForm
@@ -132,3 +132,21 @@ class UpdatePostView(UserPassesTestMixin, SuccessMessageMixin, generic.UpdateVie
         form.instance.author = self.request.user
         messages.info(self.request, "Post updated successfully")
         return super().form_valid(form)
+
+
+class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.DeleteView):
+    """
+    Logged users can delete a post / activity they posted in the blog
+    """
+    model = Post
+    template_name = 'delete_post.html'
+    success_url = reverse_lazy('blog')  # Redirect URL after successful deletion
+    success_message = "Post deleted successfully!"
+
+    def test_func(self):
+        obj = self.get_object()
+        return self.request.user == obj.author
+
+    def delete(self, request, *args, **kwargs):
+        messages.success(self.request, self.success_message)
+        return super().delete(request, *args, **kwargs)

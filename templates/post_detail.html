@@ -32,7 +32,7 @@
                 <i class="fa fa-edit"></i> Update post</a>
 
             <!-- Red button for post delete -->
-            <a href="#" class="btn btn-danger m-1">
+            <a href="{% url 'delete_post' post.slug %}" class="btn btn-danger m-1">
                 <i class="fa fa-trash"></i> Delete Post</a>
         </div>
     </div>
