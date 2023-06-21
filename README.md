@@ -1,6 +1,5 @@
 # **Its4kids - Project Portfolio 4**
 
-
 Its4kids Blog is an online environment with an array of play ideas tailored to children of diverse ages. It is a place where parents and educators alike can find inspiration to connect with their children through play. Parents and educators can also contribute their own play ideas to the community.  Whether you are a parent looking to make lasting memories with your little ones or an educator seeking innovative approaches,  Its4kids blog is your ultimate destination. 
 
 This is a fictional website that was created for Portfolio Project 4  - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net).
@@ -19,6 +18,7 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
     * [Site Users Goal](<#site-users-goal>)
     * [Site Owners Goal](<#site-owners-goal>)
     * [Project Management](<#project-management>)
+    * [Data Model](<#data-model>)
 
 * [**User Experience (UX)**](<#user-experience-ux>)
     * [Target Audience](<#target-audience>)
@@ -63,6 +63,8 @@ The goal of a parent using Its4kids Blog is to discover engaging and age-appropr
 
 The goal of the site owner is to create a centralized platform that brings together a wide range of children's activities, where parents can find inspiration and ideas for playing with their children. It also aims to provide a space where parents can contribute their own activity suggestions and engage with like-minded individuals.
 
+[Back to top](<#table-of-content>)
+
 ## Project Management
 
 Throughout the development of the Its4kids Blog project, I have adopted task management tools such as Trello and GitHub Projects, whick have been useful in organizing and tracking all the tasks that need to be accomplished. Additionally, I utilize a notebook and pen to write down my thoughts and ideas.
@@ -74,7 +76,35 @@ Throughout the development of the Its4kids Blog project, I have adopted task man
 ![User Stories](./static/images/readme/github-project.jpg)
 </details><br/>
 
+## Data Model
+
+### Post Model
+
+| Key | Name | Type
+|-----|----------------|------------------|
+| foreign key | author | User Model
+| | title (unique) | Char[200]
+| | created_date | DateTime
+| | updated_date | DateTime
+| | content | TextField
+| | featured_image | Cloudinary_image
+| | excerpt | TextField
+| many-to-many | likes | User Model
+| label for url | slug (unique) | SlugField
+| | status | Integer
+
+### Comment model
+
+
+### Profile model
+
+
 [Back to top](<#table-of-content>)
+
+
+# **User Experience (UX)**
+
+## Target Audience
 
 
 ## Wireframes 
@@ -102,15 +132,13 @@ The wireframes for Its4kids website were developed on [Balsamiq](https://balsami
 <img src="./static/images/readme/Its4kids_Profile.png" alt="Profile page Wireframe"></details>
 
 
-
-
 ## User Stories
 
 
 
+## Site Structure
 
-
-
+Its4kids Blog is thoughtfully structured to cater to both registered and non-registered users, aiming to provide a great experience for all. For non-registered and logged-out users, the site offers access to key pages and sections such as "About," "Play ideas," and also "Subscribe to a newsletter" ensuring they can explore content relevant to their interests. Once users are registered and logged in, a broader range of features becomes available. In addition, they gain access to additional sections, being able to add a play idea, see their profile and also like posts and add comments.
 
 ## Design Choices
 
@@ -131,29 +159,10 @@ Colour Palette image
 <img src="./static/images/readme/color-palette.jpg" alt="Colour Palette image">
 
 
-### Data Model
 
 
 
-#### Post Model
 
-| Key | Name | Type
-|-----|----------------|------------------|
-| foreign key | author | User Model
-| | title (unique) | Char[200]
-| | created_date | DateTime
-| | updated_date | DateTime
-| | content | TextField
-| | featured_image | Cloudinary_image
-| | excerpt | TextField
-| many-to-many | likes | User Model
-| label for url | slug (unique) | SlugField
-| | status | Integer
-
-#### Comment model
-
-
-#### Profile model
 
 ## Technologies Used
 
