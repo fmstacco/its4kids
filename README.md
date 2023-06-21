@@ -192,7 +192,7 @@ Its4kids was manually tested on these browsers as table below and design, layout
 
 ### Responsiveness Test
 
-Its4kids website was manually tested was manually tested for its responsiveness with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+Its4kids website was manually tested for its responsiveness with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
 |        | Nexus 4/5/6 | Galaxy S5/S6/S7 | iPhone 6--12 | iPad |  Display <1200px | Display >1200px |
 |--------|-------------|-----------------|--------------|------|------------------|-----------------|
