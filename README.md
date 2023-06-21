@@ -1,6 +1,7 @@
 # **Its4kids - Project Portfolio 4**
 
-Its4kids is an environment to get and share play ideas for children by people interested in contributing to a more playing world, such as parents, educators, as well as future education professionals... 
+
+Its4kids Blog is an online environment with an array of play ideas tailored to children of diverse ages. It is a place where parents and educators alike can find inspiration to connect with their children through play. Parents and educators can also contribute their own play ideas to the community.  Whether you are a parent looking to make lasting memories with your little ones or an educator seeking innovative approaches,  Its4kids blog is your ultimate destination. 
 
 This is a fictional website that was created for Portfolio Project 4  - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net).
 
