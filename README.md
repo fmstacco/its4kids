@@ -2,15 +2,27 @@
 
 Its4kids is an environment to get and share play ideas for children by people interested in contributing to a more playing world, such as parents, educators, as well as future education professionals... 
 
+This is a fictional website that was created for Portfolio Project 4  - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net).
+
+
 Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target="_blank">Its4kids</a>
 
+![Its4kids responsive design](./static/images/readme/multidevice.jpg)
 
-# Contents
 
-* [**Objective**](<#objective>)
-* [**User Experience UX**](<#user-experience-ux>)
+
+# Table of Content
+
+* [**Project**](<#project>)
+    * [Objective](<#objective>)
+    * [Site Users Goal](<#site-users-goal>)
+    * [Site Owners Goal](<#site-owners-goal>)
+    * [Project Management](<#project-management>)
+
+* [**User Experience (UX)**](<#user-experience-ux>)
     * [Target Audience](<#target-audience>)
-     [Wireframes](<#wireframes>)
+    * [Wireframes](<#wireframes>)
+    * [User Stories](<#user-stories>)
     * [Site Structure](<#site-structure>)
     * [Design Choices](<#design-choices>)
         *  [Typography](<#typography>)
@@ -18,18 +30,13 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
 * [**Data Model**](<#data-model>)
 * [**Features**](<#features>)
     * [**Existing Features**](<#existing-features>)
-    * [**Home**](<#home-page>)
+        * [**Home**](<#home-page>)
         * [Navigation bar](<#navigation-bar>)
         * [Gallery Carousel](<#gallery-carousel>)
         * [About-us](<#about-us>)
         * [Footer](<#footer>)
         * [**Browse Ideas**](<#browse-page>)
         * [**User Profile**](<#user-page>)
-        * [**Contact**](<#contact-page>)
-            * [Contact details](<#contact-details>)
-            * [Contact Form](<#contact-form>)
-            * [Testimonials](<#testimonials>)
-            * [Location Map](<#location-map>)
         * [**Admin Page**](<#admin-page>)
         * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
@@ -38,6 +45,35 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
 * [**Credits**](<#credits>)
     * [**Code**](<#code>)
 *  [**Acknowledgements**](<#acknowledgements>)
+
+
+
+# **Project**
+
+## Objective
+
+The objective of the "Its4kids Blog" project is to create a community-driven website that provides a diverse selection of activity ideas for parents to entertain and educate their children during their early childhood. The blog aims to support parents, particularly in rainy countries, such as Ireland, by offering several categories of activities such as for rainy days, indoor, outdoor, also messy and messy free activities, among others. By doing so, it aims to inspire parents and enable them to engage their children in interactive and educational play, fostering their overall development. It encourages parents to contribute their own activity ideas, allowing them to share their experiences and insights with other parents, making the website a hub of creativity and inspiration for parents seeking engaging and enriching activities for their children.
+
+## Site Users Goal
+
+The goal of a parent using Its4kids Blog is to discover engaging and age-appropriate activities for their children so that they can overcome the challenge of coming up with innovative ideas on their own. The goal is also to participate in a community-driven platform where they can can contribute by sharing activities and also expand their repertoire of activities and find inspiration for playtime with the kids.
+
+## Site Owners Goal
+
+The goal of the site owner is to create a centralized platform that brings together a wide range of children's activities, where parents can find inspiration and ideas for playing with their children. It also aims to provide a space where parents can contribute their own activity suggestions and engage with like-minded individuals.
+
+## Project Management
+
+Throughout the development of the Its4kids Blog project, I have adopted task management tools such as Trello and GitHub Projects, whick have been useful in organizing and tracking all the tasks that need to be accomplished. Additionally, I utilize a notebook and pen to write down my thoughts and ideas.
+
+<details><summary><b>Trello & Github Board</b></summary>
+
+![Trello Image](./static/images/readme/trello.jpg)
+
+![User Stories](./static/images/readme/github-project.jpg)
+</details><br/>
+
+[Back to top](<#table-of-content>)
 
 
 ## Wireframes 
