@@ -53,7 +53,8 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
 
 ## Objective
 
-The objective of the "Its4kids Blog" project is to create a community-driven website that provides a diverse selection of activity ideas for parents to entertain and educate their children during their early childhood. The blog aims to support parents, particularly in rainy countries, such as Ireland, by offering several categories of activities such as for rainy days, indoor, outdoor, also messy and messy free activities, among others. By doing so, it aims to inspire parents and enable them to engage their children in interactive and educational play, fostering their overall development. It encourages parents to contribute their own activity ideas, allowing them to share their experiences and insights with other parents, making the website a hub of creativity and inspiration for parents seeking engaging and enriching activities for their children.
+The objective of the "Its4kids Blog" project is to create a community-driven platform that aims to support parents in finding and sharing activity ideas to entertain and educate their children during their early childhood. As a mum of two small kids living in Ireland, a rainy country, I have personally experienced the challenges of coming up with engaging activities for my children. Therefore, the primary goal of this project is to provide a centralized space where parents can contribute and exchange activity ideas, fostering a sense of community and collaboration.
+
 
 ## Site Users Goal
 
