@@ -88,57 +88,45 @@
     <main class="flex-shrink-0 main-bg"> {% block content %}
       <!-- Content Goes here --> {% endblock content %}
     </main>
-    <!-- Footer -->
     <footer class="footer container-fluid py-5 bg-dark">
       <div class="container">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3 text-white">
-            <h5 class="fw-bold">Its4kids</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2">
-                <a href="{% url 'home' %}" class="nav-link p-0  text-white">Home</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="{% url 'blog' %}" class="nav-link p-0  text-white">Activities</a>
-              </li>
-              <li class="nav-item mb-2">
-                <a href="{% url 'profiles:profile' %}" class="nav-link p-0 text-white">My Account</a>
-              </li>
-            </ul>
+          <div class="row">
+            <div class="col-6 col-md-2 mb-3 text-white">
+              <h5 class="fw-bolder">Its4kids</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="{% url 'home' %}" class="nav-link p-0  text-white ">Home</a></li>
+                <li class="nav-item mb-2"><a href="{% url 'blog' %}" class="nav-link p-0  text-white">Activities</a></li>
+                <li class="nav-item mb-2"><a href="{% url 'profiles:profile' %}" class="nav-link p-0 text-white">My Account</a></li>
+
+              </ul>
+            </div>
+
+            <div class="col-6 col-md-2 mb-3 text-white">
+              <h5>Follow us!</h5>
+              <ul class="nav flex-column" >
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook text-white fs-4 p-0"></i></a></li>
+                <li><a href="https://www.twitter.com/"><i class="fab fa-twitter text-white fs-4"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram text-white fs-4"></i></a></li>
+
+              </ul>
+            </div>
+
+
+            <div class="col-md-5 offset-md-1 mb-3 text-white">
+              <form action="https://gmail.us21.list-manage.com/subscribe/post?u=1599c7f020532a28b4ca27d63&amp;id=80aa886339&amp;f_id=00e65ae1f0" method="POST" class="newsletter-form">
+                {% csrf_token %}
+                <h5>Subscribe to our newsletter</h5>
+                <p>Keep up to date to news activities for your children!</p>
+                <input type="email" name="EMAIL" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
           </div>
-          <div class="col-6 col-md-2 mb-3 text-white">
-            <h5>Follow us!</h5>
-            <ul class="nav flex-column">
-              <li>
-                <a href="https://www.facebook.com/">
-                  <i class="fab fa-facebook text-white fs-4 p-0"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.twitter.com/">
-                  <i class="fab fa-twitter text-white fs-4"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/">
-                  <i class="fab fa-instagram text-white fs-4"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>  
-          <div class="col-md-5 offset-md-1 mb-3 text-white">
-            <form action="https://gmail.us21.list-manage.com/subscribe/post?u=1599c7f020532a28b4ca27d63&amp;id=80aa886339&amp;f_id=00e65ae1f0" method="POST" class="newsletter-form"> {% csrf_token %} <h5>Subscribe to our newsletter</h5>
-              <p>Keep up to date to news activities for your children!</p>
-              <input type="email" name="EMAIL" placeholder="Your email address" required>
-              <button type="submit">Subscribe</button>
-            </form>
-          </div>
+
           <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-white">
             <p>&copy; Its4kids. All rights reserved.</p>
           </div>
-      </div>
-    </footer>
+      </footer>
     <!--Javascript Alert Messages - code from Code Institute: I think therefore I blog-->
     <script>
       setTimeout(function() {
