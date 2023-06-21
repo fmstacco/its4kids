@@ -151,7 +151,7 @@ Colour Palette image
 
 ### Code Validation
 
-The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [PEP8](http://ww1.pep8online.com/) to validate Python. Additional manual tests has been carried on. 
+The Its4kids website has gone through intensive tests throughout its pages and sections/screens.The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [PEP8](http://ww1.pep8online.com/) to validate Python. Additional tests, such as browser tests, manual testing, responsiveness test, testing user stories among others have been carried on as shown below. 
 
 **HTML validation** 
 
@@ -166,8 +166,73 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to v
 
 ![CSS validation image ](./static/images/readme/w3-css-validator.jpg) 
 
+**JavaScript validation image**
+
+![JavaScript validation image ](./static/images/readme/jshint-javascript-validator.png) 
+
+**PEP8 validation image**
+
+![PEP8 validation image ](./static/images/readme/pep8-python-validator.png) 
 
 
+[Back to top](<#contents>)
+
+
+### Browser Testing
+
+Its4kids was manually tested on these browsers as table below and design, layout, functionality and, responsiveness were consistent across all browsers both mobile and desktop.
+
+|   Browser   |    Result  | 
+| :---------: | :---------:| 
+| Chrome      |   pass     | 
+| Edge        |   pass     |
+| Firefox     |   pass     |
+| Safari      |   pass     |
+| IE          |   pass     | 
+
+### Responsiveness Test
+
+Its4kids website was manually tested was manually tested for its responsiveness with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+
+|        | Nexus 4/5/6 | Galaxy S5/S6/S7 | iPhone 6--12 | iPad |  Display <1200px | Display >1200px |
+|--------|-------------|-----------------|--------------|------|------------------|-----------------|
+| Render |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+| Images |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+| Links  |    pass     |      pass       |     pass     | pass |     pass         |      pass       |
+
+
+### Manual Testing
+
+Its4kids website has been extensively tested both on the Gitpod terminal and the Heroku deployed version on the browser. It has been checked features, responsiveness, accessibility, layout, design, texts, buttons and navigation links and form submission on different browsers. 
+All tests made aimed to achieve the best user experience in system navigation, so that the user can follow an intuitive and easy flow at all system contact points.
+Below are some examples of features tested manually.  
+
+| Feature            |  Expect                           |  Result              |
+| ------------------ | --------------------------------- | ---------------------|
+| Run Task Tracker   |  Display welcome screen           |         Pass         | 
+| New user press [1] |  Display welcome new user menu    |         Pass         |
+| Returning user [2] |  Display returning user menu      |         Pass         |
+|  Invalid inputs    |  Messages inputs not valid        |         Pass         |
+|  Add new task      |  Requests inputs to be filled     |         Pass         | 
+|  Store task sheets |  Add task on google shets         |         Pass         | 
+|  Delete task       |  Requests task code to delete     |         Pass         | 
+| Delete task sheets |  Delete task on google shets      |         Pass         |
+|  Save task         |  Show saved tasks/Retrieve sheets |         Pass         |
+|  Exit screen       |  Display end screen when typed [4]|         Pass         |
+
+
+### Testing User Stories
+
+| Expectation                         | Result                          |
+| :---------------------------------: | :------------------------------:|
+|  **[Quiz Website]** | |
+|  **[Quiz Screen]**| |
+|  **[Results Screen]**| |
+| **[Contact Screen]**|  |
+| **[Form Destination Page]** | |
+
+
+[Back to top](<#contents>)
 
 
 ### Bugs Fixed
@@ -175,8 +240,28 @@ The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to v
 ![Home Page - Bugs Fixed ](./static/images/readme/html-bugs-fixed.png) 
 
 
+### Bugs Unfixed
 
 
+### Additional Testing
+
+### Acessibility 
+
+To check the accessibility in color regarding was used the [A11y](https://color.a11y.com/).
+
+![Acessibility validation image ](./static/images/readme/a11y-acessibility-validator.jpg) 
+
+### Lighthouse
+
+A test on [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was also done through  Chrome Developer Tools.
+
+It tests each of the pages for ***performance, accessibility, best practices and, SEO***
+
+![Lighthouse test results](.static/images/readme/lighthouse-desktop.jpg)
+
+![Lighthouse test results](.static/images/readme/lighthouse-mobile.jpg)
+
+[Back to top](<#contents>)
 
 ## Deployment
 
