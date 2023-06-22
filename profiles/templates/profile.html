@@ -3,15 +3,23 @@
 
 {% block content %}
     <div class="container-fluid py-3">
-        <h1>{{ user.username }}'s Profile</h1>
-
+        <h3>{{ user.username }}'s Profile</h3>
+        <div>
+            <h4 class="headline-intro-text mt-4">Here you can update your profile information:</h4>
+        </div>
+        <hr>    
         <div class="profile-info">
+            
             {% if user_profile.profile_pic %}
-            <img src="{{ user_profile.profile_pic.url }}" width="200" height="200" alt="Profile Picture">
+            <img 
+                src="{{ user_profile.profile_pic.url }}" width="200" height="200" 
+                alt="Profile Picture">
             {% else %}
-                <img src="{% static 'images/default_profile_pic.jpg' %}" width="200" height="200" alt="Default Profile Picture">
+            <img 
+                src="{% static 'images/default_profile_pic.jpg' %}" width="200" height="200" 
+                alt="Default Profile Picture">
             {% endif %}
-    
+            
             <form method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form.as_p }}
