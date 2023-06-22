@@ -26,5 +26,12 @@
                 <button type="submit">Save</button>
             </form>
         </div>
-    </div>
+        <div class="container-fluid py-4">
+            <h4 class="mt-5">Your Posts:</h4>
+            <ul class="list-group">
+                {% for post in user_posts %}
+                <li>{{ post.title }}</li>
+                {% endfor %}
+            </ul>
+        </div>
 {% endblock %}

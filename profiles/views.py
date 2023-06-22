@@ -2,6 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from .models import UserProfile
 from .forms import UserProfileForm
+from blog.models import Post
 
 
 def register(request):
@@ -32,9 +33,15 @@ def profile(request):
     else:
         form = UserProfileForm(instance=user_profile)
 
+    user_posts = Post.objects.filter(author=request.user)
+
     context = {
         'user': request.user,
         'user_profile': user_profile,
+        'user_posts': user_posts,
         'form': form
+
     }
     return render(request, 'profile.html', context)
+
+    
