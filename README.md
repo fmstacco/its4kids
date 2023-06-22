@@ -19,7 +19,6 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
     * [Site Owners Goal](<#site-owners-goal>)
     * [Project Management](<#project-management>)
     * [Data Model](<#data-model>)
-
 * [**User Experience (UX)**](<#user-experience-ux>)
     * [Target Audience](<#target-audience>)
     * [Wireframes](<#wireframes>)
@@ -28,18 +27,16 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
     * [Design Choices](<#design-choices>)
         *  [Typography](<#typography>)
         *  [Colour Scheme](<#colour-scheme>)
-* [**Data Model**](<#data-model>)
 * [**Features**](<#features>)
     * [**Existing Features**](<#existing-features>)
         * [**Home**](<#home-page>)
         * [Navigation bar](<#navigation-bar>)
-        * [Gallery Carousel](<#gallery-carousel>)
-        * [About-us](<#about-us>)
+        * [**Play Ideas**](<#play-ideas-page>)
+        * [**Add, Update and Delete Play Idea**](#crud-play-idea>)
         * [Footer](<#footer>)
-        * [**Browse Ideas**](<#browse-page>)
         * [**User Profile**](<#user-page>)
         * [**Admin Page**](<#admin-page>)
-        * [**Future Features**](<#future-features>)
+    * [**Future Features**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
@@ -160,7 +157,35 @@ Colour Palette image
 <img src="./static/images/readme/color-palette.jpg" alt="Colour Palette image">
 
 
+## Features
 
+### Existing Features
+
+### Home Page
+
+### Navigation Bar
+
+### Add, Update and Delete Play Idea
+
+### Footer
+
+### User Profile
+
+### Admin Page
+
+## Future Features 
+
+
+
+    * [**Existing Features**](<#existing-features>)
+        * [**Home**](<#home-page>)
+        * [Navigation bar](<#navigation-bar>)
+        * [**Play Ideas**](<#play-ideas-page>)
+        * [**Add, Update and Delete Play Idea**](#crud-play-idea)
+        * [Footer](<#footer>)
+        * [**User Profile**](<#user-page>)
+        * [**Admin Page**](<#admin-page>)
+    * [**Future Features**](<#future-features>)
 
 
 
