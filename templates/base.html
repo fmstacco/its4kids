@@ -32,114 +32,115 @@
   </head>
   
   <body class="d-flex flex-column h-100 main-bg">
-  
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid" id="nav-header">
-        <a class="navbar-brand" href="{% url 'home' %}">
-          <img src="{% static 'images/its4kids-logo.png' %}" alt="logo with three colored hands, written Its4kids" width="224" height="62" class="d-inline-block align-text-top">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link fw-bold {% if request.path == '/' %}active{% endif %}" href="{% url 'home' %}">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="{% url 'blog' %}">Play Ideas</a>
-            </li> 
-            {% if user.is_authenticated %} 
-              <li class="nav-item">
-                <a class="nav-link fw-bold" href="{% url 'add_post' %}">Add Play Idea</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link fw-bold" href="{% url 'account_logout' %}">Logout</a>
-              </li> 
-            {% endif %}
-          </ul>
-          {% if user.is_authenticated %} 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
-                  {{user.username}}
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item fw-bold" href="{% url 'profiles:profile' %}">Profile</a>
-                  <a class="dropdown-item fw-bold" href="{% url 'account_logout' %}">Logout</a>
-                </div>
-              </li>
-            </ul> 
-            {% else %} 
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true">My Account</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item fw-bold" href="{% url 'account_signup' %}">Register</a>
-                  <a class="dropdown-item fw-bold" href="{% url 'account_login' %}">Login</a>
-                </div>
-              </li>
-            </ul> 
-          {% endif %}
-        </div>
-      </div>
-    </nav>
-    <main class="flex-shrink-0 main-bg"> {% block content %}
-      <!-- Content Goes here --> {% endblock content %}
-    </main>
-    <footer class="footer container-fluid py-5 bg-dark">
-      <div class="container">
-          <div class="row">
-            <div class="col-6 col-md-2 mb-3 text-white">
-              <h5 class="fw-bolder">Its4kids</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item mb-2"><a href="{% url 'home' %}" class="nav-link p-0  text-white ">Home</a></li>
-                <li class="nav-item mb-2"><a href="{% url 'blog' %}" class="nav-link p-0  text-white">Activities</a></li>
-                <li class="nav-item mb-2"><a href="{% url 'profiles:profile' %}" class="nav-link p-0 text-white">My Account</a></li>
+      <div class="wrapper">
 
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid" id="nav-header">
+            <a class="navbar-brand" href="{% url 'home' %}">
+              <img src="{% static 'images/its4kids-logo.png' %}" alt="logo with three colored hands, written Its4kids" width="224" height="62" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold {% if request.path == '/' %}active{% endif %}" href="{% url 'home' %}">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold" href="{% url 'blog' %}">Play Ideas</a>
+                </li> 
+                {% if user.is_authenticated %} 
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="{% url 'add_post' %}">Add Play Idea</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="{% url 'account_logout' %}">Logout</a>
+                  </li> 
+                {% endif %}
               </ul>
-            </div>
-
-            <div class="col-6 col-md-2 mb-3 text-white">
-              <h5>Follow us!</h5>
-              <ul class="nav flex-column" >
-                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook text-white fs-4 p-0"></i></a></li>
-                <li><a href="https://www.twitter.com/"><i class="fab fa-twitter text-white fs-4"></i></a></li>
-                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram text-white fs-4"></i></a></li>
-
-              </ul>
-            </div>
-
-
-            <div class="col-md-5 offset-md-1 mb-3 text-white">
-              <form action="https://gmail.us21.list-manage.com/subscribe/post?u=1599c7f020532a28b4ca27d63&amp;id=80aa886339&amp;f_id=00e65ae1f0" method="POST" class="newsletter-form">
-                {% csrf_token %}
-                <h5>Subscribe to our newsletter</h5>
-                <p>Keep up to date to news activities for your children!</p>
-                <input type="email" name="EMAIL" placeholder="Your email address" required>
-                <button type="submit">Subscribe</button>
-              </form>
+              {% if user.is_authenticated %} 
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true">
+                      {{user.username}}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item fw-bold" href="{% url 'profiles:profile' %}">Profile</a>
+                      <a class="dropdown-item fw-bold" href="{% url 'account_logout' %}">Logout</a>
+                    </div>
+                  </li>
+                </ul> 
+                {% else %} 
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true">My Account</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item fw-bold" href="{% url 'account_signup' %}">Register</a>
+                      <a class="dropdown-item fw-bold" href="{% url 'account_login' %}">Login</a>
+                    </div>
+                  </li>
+                </ul> 
+              {% endif %}
             </div>
           </div>
+        </nav>
+        <main class="main-content flex-shrink-0 main-bg"> {% block content %}
+          <!-- Content Goes here --> {% endblock content %}
+        </main>
+        <footer class="footer container-fluid py-5 bg-dark">
+          <div class="container">
+              <div class="row">
+                <div class="col-6 col-md-2 mb-3 text-white">
+                  <h5 class="fw-bolder">Its4kids</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="{% url 'home' %}" class="nav-link p-0  text-white ">Home</a></li>
+                    <li class="nav-item mb-2"><a href="{% url 'blog' %}" class="nav-link p-0  text-white">Activities</a></li>
+                    <li class="nav-item mb-2"><a href="{% url 'profiles:profile' %}" class="nav-link p-0 text-white">My Account</a></li>
 
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-white">
-            <p>&copy; Its4kids. All rights reserved.</p>
-          </div>
-      </footer>
-    <!--Javascript Alert Messages - code from Code Institute: I think therefore I blog-->
-    <script>
-      setTimeout(function() {
-        let messages = document.getElementById('msg');
-        let alert = new bootstrap.Alert(messages);
-        alert.close();
-      }, 2500);
-    </script>
-    <!-- Bootstrap JS Script Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+                  </ul>
+                </div>
 
+                <div class="col-6 col-md-2 mb-3 text-white">
+                  <h5>Follow us!</h5>
+                  <ul class="nav flex-column" >
+                    <li><a href="https://www.facebook.com/"><i class="fab fa-facebook text-white fs-4 p-0"></i></a></li>
+                    <li><a href="https://www.twitter.com/"><i class="fab fa-twitter text-white fs-4"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fab fa-instagram text-white fs-4"></i></a></li>
+
+                  </ul>
+                </div>
+
+
+                <div class="col-md-5 offset-md-1 mb-3 text-white">
+                  <form action="https://gmail.us21.list-manage.com/subscribe/post?u=1599c7f020532a28b4ca27d63&amp;id=80aa886339&amp;f_id=00e65ae1f0" method="POST" class="newsletter-form">
+                    {% csrf_token %}
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Keep up to date to news activities for your children!</p>
+                    <input type="email" name="EMAIL" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top text-white">
+                <p>&copy; Its4kids. All rights reserved.</p>
+              </div>
+          </footer>
+        <!--Javascript Alert Messages - code from Code Institute: I think therefore I blog-->
+        <script>
+          setTimeout(function() {
+            let messages = document.getElementById('msg');
+            let alert = new bootstrap.Alert(messages);
+            alert.close();
+          }, 2500);
+        </script>
+        <!-- Bootstrap JS Script Link -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    </div>      
   </body>
 </html>

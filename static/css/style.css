@@ -6,10 +6,23 @@
     --green: #8abd24;
   }
 
+html, body {
+    height: 100%;
+  }
 
 body {
     background-color: #f7f6f5;
 }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.main-content {
+    flex-grow: 1;
+  }
 
 .title {
     font-size: clamp(2.5rem, 2vw, 3rem);
@@ -288,3 +301,7 @@ body {
     transform: translateY(-50%);
 }
 
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
