@@ -6,10 +6,12 @@
         <h1>{{ user.username }}'s Profile</h1>
 
         <div class="profile-info">
-            {% if user_profile %}
-                <img src="{{ user_profile.profile_pic.url }}" width="200" height="200" alt="Profile Picture">
-                <p>Bio: {{ user_profile.bio }}</p>
+            {% if user_profile.profile_pic %}
+            <img src="{{ user_profile.profile_pic.url }}" width="200" height="200" alt="Profile Picture">
+            {% else %}
+                <img src="{% static 'images/default_profile_pic.jpg' %}" width="200" height="200" alt="Default Profile Picture">
             {% endif %}
+    
             <form method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ form.as_p }}
