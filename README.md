@@ -413,9 +413,10 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 
 * [I Think therefore I Blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FST101+2021_T1/courseware/b31493372e764469823578613d11036b/fe4299adcd6743328183aab4e7ec5d13/) - this project was created based on the walkthrough I think therefore I Blog.
 * [Tasty Blog](https://github.com/PedroCristo/portfolio_project_4) - this project inspired me and I borrow some of the code for the hero section carousel.
-* [Location Blog](https://github.com/DionneMaguire/locationblog) - this project also inspired me.
+* [Location Blog](https://github.com/DionneMaguire/locationblog), [Best Beers](https://github.com/vivignutz/berlin_bestbeers/) and [Review | Alliance](https://github.com/worldofmarcus/project-portfolio-4) - these projects were also source of inspiration to my develop my blog and structure my README.
 * [Unplash](https://unsplash.com/) - I got pictures for hero carousel and the blog posts.
-
+* [Canva](https://canva.com/) - I used Canva Pro to design the logo, color palete, and also images for the website, such as about section, blog posts, default profile image, etc. 
+* [CODEMY.COM YOUTUBE](https://www.youtube.com/playlist?list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi) - Create a Simple Django Blog. I got the inspiration from this tutorial and playlist to code many functionalities of the blog, such as add a blog post, profile page, category, add blog user name to navbar, among others.  
 
 # Acknowledgements
 
