@@ -30,13 +30,13 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
 * [**Features**](<#features>)
     * [**Existing Features**](<#existing-features>)
         * [**Home**](<#home-page>)
-        * [Navigation bar](<#navigation-bar>)
+        * [**Navigation bar**](<#navigation-bar>)
         * [**Play Ideas**](<#play-ideas-page>)
         * [**Add, Update and Delete Play Idea**](#crud-play-idea>)
-        * [Footer](<#footer>)
+        * [**Footer**](<#footer>)
         * [**User Profile**](<#user-page>)
         * [**Admin Page**](<#admin-page>)
-    * [**Future Features**](<#future-features>)
+    * [**Features left to implement**](<#future-features>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Deployment**](<#deployment>)
@@ -174,19 +174,21 @@ Colour Palette image
 
 ### Admin Page
 
-## Future Features 
+## Features left to implementation 
 
+Its4kids Blog can be improved in the future through new features to be developed and implemented:
 
+**Search functionality** - it’s very important to have a search functionality to allow users to search for activities based on keywords, categories, age group, or other criteria.
 
-    * [**Existing Features**](<#existing-features>)
-        * [**Home**](<#home-page>)
-        * [Navigation bar](<#navigation-bar>)
-        * [**Play Ideas**](<#play-ideas-page>)
-        * [**Add, Update and Delete Play Idea**](#crud-play-idea)
-        * [Footer](<#footer>)
-        * [**User Profile**](<#user-page>)
-        * [**Admin Page**](<#admin-page>)
-    * [**Future Features**](<#future-features>)
+**Favorites play ideas** - Its very useful to allow users to ***favorite play ideas*** to show their appreciation and to easily access their favorite activities later on their profile page. 
+
+**Sharing and Social Media Integration:** - Enable users to share play ideas on social media platforms such as Facebook, Instagram , Pinterest to reach a wider audience.
+
+**Play Ideas Rating and Reviews** - for future development it would be nice to have a rating system where users can rate the play activities and leave reviews to provide feedback and help other users choose what to play with their children.
+
+**Commenting functionality** - it’s very important to allow users to update and delete their comments. 
+
+[Back to top](<#contents>)
 
 
 
