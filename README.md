@@ -104,6 +104,7 @@ Throughout the development of the Its4kids Blog project, I have adopted task man
 
 ## Target Audience
 
+* Its4kids is a blog designed for parents and educators seeking inspiration and ideas for engaging activities to do and play with their children and students. 
 
 ## Wireframes 
 
