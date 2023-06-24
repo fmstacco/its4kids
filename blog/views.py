@@ -150,3 +150,10 @@ class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixi
     def delete(self, request, *args, **kwargs):
         messages.success(self.request, self.success_message)
         return super().delete(request, *args, **kwargs)
+
+
+def category_posts(request, category_id):
+    category = get_object_or_404(Category, id=category_id)
+    posts = Post.objects.filter(category=category)
+    context = {'category': category, 'posts': posts}
+    return render(request, 'blog/category_posts.html', context)
