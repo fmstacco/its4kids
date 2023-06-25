@@ -417,6 +417,7 @@ Help on cloning a repository from GitHub can be found [here](https://docs.github
 * [Unplash](https://unsplash.com/) - I got pictures for hero carousel and the blog posts.
 * [Canva](https://canva.com/) - I used Canva Pro to design the logo, color palete, and also images for the website, such as about section, blog posts, default profile image, etc. 
 * [CODEMY.COM YOUTUBE](https://www.youtube.com/playlist?list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi) - Create a Simple Django Blog. I got the inspiration from this tutorial and playlist to code many functionalities of the blog, such as add a blog post, profile page, category, add blog user name to navbar, among others.  
+* [Good Housekeeping](https://www.goodhousekeeping.com/life/parenting/g31445865/indoor-activities-for-kids/) - content for the blog posts.
 
 # Acknowledgements
 
