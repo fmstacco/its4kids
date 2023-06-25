@@ -1,5 +1,6 @@
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
+from django.contrib import messages
 from .models import UserProfile
 from .forms import UserProfileForm
 from blog.models import Post
@@ -29,6 +30,7 @@ def profile(request):
             profile = form.save(commit=False)
             profile.user = request.user
             profile.save()
+            messages.success(request, 'Your profile has been updated successfully!')
             return redirect('profiles:profile')
     else:
         form = UserProfileForm(instance=user_profile)
