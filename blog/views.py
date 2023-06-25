@@ -101,7 +101,6 @@ class AddPostView(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
     model = Post
     template_name = 'add_post.html'
     fields = 'title', 'category', 'featured_image', 'content', 
-    success_message = "Post added and waiting for approval!"
 
     def form_valid(self, form):
         if self.request.POST.get('status'):
