@@ -65,7 +65,20 @@ The goal of the site owner is to create a centralized platform that brings toget
 
 ## Project Management
 
-Throughout the development of the Its4kids Blog project, I have adopted task management tools such as Trello and GitHub Projects, whick have been useful in organizing and tracking all the tasks that need to be accomplished. Additionally, I utilize a notebook and pen to write down my thoughts and ideas.
+## Agile 
+
+Throughout the development of the Its4kids Blog project, I have adoped the **Agile approach** to ensure an organzied and efficient workflow. 
+By adopting task management tools like Trello and GitHub Projects, I have successfully organized and tracked the progress of all the tasks that needed to be done. Trello was used for overall project planning, while GitHub Projects specifically helped in organizing the user stories.
+
+To begin, I created a **Product Backlog** that encompassed all the tasks and features necessary for the project. This allowed me to have a clear overview of all tasks that needed to be accomplished. Then, I broke down the backlog into smaller and achievable units, which helped me to tackle each task effectively.
+
+To ensure optimal productivity, I employed a **prioritization process** to assess the importance of each task in relation to the project goals. By assigning priorities, I could focus on the most critical tasks first, ensuring that valuable features were implemented promptly.
+
+In addition to utilizing digital task management tools, I found it beneficial to maintain a physical notebook and pen to write down thoughts, ideas and any relevant information that surfaced during the development process. 
+
+The Agile approach enabled me to maintain organization, time management, prioritize my work and reduce stress as I could switch tasks to refresh my mind when facing some problem. 
+
+Follow below images of Trello and Github Board. 
 
 <details><summary><b>Trello & Github Board</b></summary>
 
