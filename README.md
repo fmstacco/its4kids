@@ -82,7 +82,7 @@ Follow below images of Trello and Github Board.
 
 <details><summary><b>Trello & Github Board</b></summary>
 
-![Trello Image](./static/images/readme/trello.jpg)
+![Trello Image](./static/images/readme/trello-pp4.jpg)
 
 ![User Stories](./static/images/readme/github-project.jpg)
 </details><br/>
