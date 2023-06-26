@@ -131,7 +131,7 @@ The wireframes for Its4kids website were developed on [Balsamiq](https://balsami
 
 <details><summary><b>Post Detail</b></summary>
 
-<img src="./static/images/readme/Its4kids-post_detail.png" alt="Post Detail page Wireframe"></details>
+<img src="./static/images/readme/Its4kids-post_detail.jpg" alt="Post Detail page Wireframe"></details>
  
 
 <details><summary><b>Add Post</b></summary>
