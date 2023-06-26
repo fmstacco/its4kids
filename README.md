@@ -89,6 +89,16 @@ Follow below images of Trello and Github Board.
 
 ## Data Model
 
+
+
+<details><summary><b>Database Design</b></summary>
+
+![Database Schema](./static/images/readme/database_design.jpeg)
+</details><br/>
+
+
+
+
 ### Post Model
 
 | Key | Name | Type
