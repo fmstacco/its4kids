@@ -87,7 +87,7 @@ body {
     margin-top: 10px;
     overflow: hidden;
     position: relative;
-    display: inline-block;
+    display: flex;
     height: 33vh;
     width: 100%;
 }
