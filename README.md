@@ -18,7 +18,7 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
     * [Site Users Goal](<#site-users-goal>)
     * [Site Owners Goal](<#site-owners-goal>)
     * [Project Management](<#project-management>)
-    * [Data Model](<#data-model>)
+    * [Database Structure](<#database-structure>)
 * [**User Experience (UX)**](<#user-experience-ux>)
     * [Target Audience](<#target-audience>)
     * [Wireframes](<#wireframes>)
@@ -87,37 +87,22 @@ Follow below images of Trello and Github Board.
 ![User Stories](./static/images/readme/github-project.jpg)
 </details><br/>
 
-## Data Model
+## Database Structure
+
+The [Lucidchart](https://www.lucidchart.com/) tool was used to provide a clear representation of the database structure and relationships created, making it easier to understand and visualize the overall architecture of the blog.
+
+Models used:
+
+* **Post** - This model manages the play ideas featured in the blog.
+* **Comment** - It allows users to provide their comments on the play ideas.
+* **Category** -  Categories are used to classify and organize the blog posts.
+* **UserProfile** - This model stores user profile information such as a bio and featured image.
 
 
+<details><summary><b>Database Structure</b></summary>
 
-<details><summary><b>Database Design</b></summary>
-
-![Database Schema](./static/images/readme/database_design.jpeg)
+![Database Structure](./static/images/readme/database_design.jpeg)
 </details><br/>
-
-
-
-
-### Post Model
-
-| Key | Name | Type
-|-----|----------------|------------------|
-| foreign key | author | User Model
-| | title (unique) | Char[200]
-| | created_date | DateTime
-| | updated_date | DateTime
-| | content | TextField
-| | featured_image | Cloudinary_image
-| | excerpt | TextField
-| many-to-many | likes | User Model
-| label for url | slug (unique) | SlugField
-| | status | Integer
-
-### Comment model
-
-
-### Profile model
 
 
 [Back to top](<#table-of-content>)
