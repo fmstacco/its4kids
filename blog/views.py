@@ -118,7 +118,6 @@ class UpdatePostView(UserPassesTestMixin, SuccessMessageMixin, generic.UpdateVie
     model = Post
     template_name = 'update_post.html'
     fields = 'title', 'category', 'featured_image', 'content',
-    success_message = "Post updated successfully!"
 
     def get_object(self):
         return get_object_or_404(Post, slug=self.kwargs.get('slug'))
