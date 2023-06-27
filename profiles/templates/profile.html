@@ -2,36 +2,38 @@
 {% load static %}
 
 {% block content %}
-    <div class="container-fluid py-3">
-        <h3>{{ user.username }}'s Profile</h3>
-        <div>
-            <h4 class="headline-intro-text mt-4">Here you can update your profile information:</h4>
-        </div>
-        <hr>    
-        <div class="profile-info">
-            
+<div class="container-fluid py-3">
+    <h3>{{ user.username }}'s Profile</h3>
+    <div>
+        <h4 class="headline-intro-text mt-4">Here you can update your profile information:</h4>
+    </div>
+    <hr>
+    <div class="row profile-info">
+        <div class="col-md-4">
             {% if user_profile.profile_pic %}
-            <img 
-                src="{{ user_profile.profile_pic.url }}" width="200" height="200" 
-                alt="Profile Picture">
+            <img src="{{ user_profile.profile_pic.url }}" class="img-fluid" width="400" height="400"  alt="Profile Picture">
             {% else %}
-            <img 
-                src="{% static 'images/default_profile_pic.jpg' %}" width="200" height="200" 
+            <img src="{% static 'images/default_profile_pic.jpg' %}" class="img-fluid rounded-circle" width="400" height="400" 
                 alt="Default Profile Picture">
             {% endif %}
-            
-            <form method="post" enctype="multipart/form-data">
+        </div>
+        <div class="col-md-8">
+            <form method="post" enctype="multipart/form-data" class="mt-4">
                 {% csrf_token %}
                 {{ form.as_p }}
-                <button type="submit">Save</button>
+                <button type="submit" class="btn btn-primary">Save</button>
             </form>
         </div>
-        <div class="container-fluid py-4">
-            <h4 class="mt-5">Your Posts:</h4>
-            <ul class="list-group">
-                {% for post in user_posts %}
-                <li>{{ post.title }}</li>
-                {% endfor %}
-            </ul>
-        </div>
+    </div>
+</div>
+<div class="container-fluid py-4">
+    <h4 class="mt-5">Your Posts:</h4>
+    <ul class="list-group">
+        {% for post in user_posts %}
+        <li class="list-group-item">
+            <a href="{% url 'post_detail' slug=post.slug %}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
 {% endblock %}
