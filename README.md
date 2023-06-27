@@ -142,6 +142,26 @@ The wireframes for Its4kids website were developed on [Balsamiq](https://balsami
 ## User Stories
 
 
+| Epic                  | Story                                                         | Task                                                                                      |
+|-----------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Admin Account management      | As a site user, I can create an account and/or login to my account so that I can access features for logged users.                   | - Set up a user authentication system (allauth).                                                     |
+|                       |   As a site user, I can to access my profile so that I can create my bio, add a profile image, update it and also see the play ideas I have created.                                                           |      - Create a profile page (profile app)                                             |
+|                       |                                                               |                                                                 |
+|                       |                                                               |                                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Site Structure
 

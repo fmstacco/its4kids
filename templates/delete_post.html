@@ -13,13 +13,13 @@
         <div class="col-md-8 mt-3 offset-md-2"> 
             <form action="{% url 'delete_post' slug=post.slug %}" method="POST">
                 {% csrf_token %}
-                <h2>Are you sure you want to delete this post?</h2>
+                <h3>Are you sure you want to delete this post?</h3>
                 <br>
                 <button type="submit" class="btn btn-danger">Delete</button>
              </form>
              <br>
              <span>
-                <a href="{% url 'post_detail' slug=post.slug %}" class="btn btn-info text-white">
+                <a href="{% url 'post_detail' slug=post.slug %}" class="btn btn-primary text-white">
                     Cancel
                 </a>
             </span>
