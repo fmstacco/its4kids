@@ -209,7 +209,7 @@ The home page of Its4kids Blog is designed to capture the essence of childhood, 
 
 ## Navigation bar
 
-
+The Its4kids Blog ensures a smooth user experience with a consistent and responsive navigation design across all pages. The header displays the logo and a navigation menu, allowing easy access to different sections of the site. Clicking on the logo redirects users back to the Home page. To enhance usability, hover effects have been implemented on the menu items, improving the overall user experience.
 
 <details><summary><b>Users Logged out</b></summary><br>
 
@@ -236,9 +236,38 @@ The home page of Its4kids Blog is designed to capture the essence of childhood, 
 ![Mobile - Logged in users](./static/images/readme/navbar_mobile_logged_in.jpg)
 </details><br/>
 
+[Back to Navigation bar](<#navigation-bar>)
+
 
 ### Play Ideas 
 
+
+<details><summary><b>Users Logged out</b></summary><br>
+
+<summary><b>Large Screen - Users Logged out</b></summary>
+
+![Large screen- User Logged out](./static/images/readme/play-ideas-page-logged-out-users.jpg)
+<br/>
+
+<summary><b>Mobile - Users Logged out</b></summary>
+
+![Mobile - User Logged out](./static/images/readme/navbar_mobile_logged_out-mobile.jpg)
+</details><br/>
+
+
+<details><summary><b>Users Logged in</b></summary><br>
+
+<summary><b>Large Screen - Users Logged in</b></summary>
+
+![Large screen - Logged in users](./static/images/readme/play-ideas-page-logged-in-users.jpg)
+
+
+<summary><b>Mobile - Users Logged in</b></summary><br>
+
+![Mobile - Logged in users](./static/images/readme/navbar_mobile_logged_in-mobile.jpg)
+</details><br/>
+
+[Back to Play Ideas](<#play-ideas>)
 
 
 

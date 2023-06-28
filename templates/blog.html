@@ -61,18 +61,6 @@
             
             {% endif %}
 
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h5 class="card-title">Categories</h5>
-                            <ul class="list-group">
-                                {% for category in categories %}
-                                <a href="{% url 'category_posts' category.id %}">{{ category.name }}</a>
-                                {% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
         </div>
     </div>
    
