@@ -29,7 +29,7 @@ Welcome to the live site here: <a href="https://its4kids.herokuapp.com/" target=
         *  [Colour Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
     * [**Existing Features**](<#existing-features>)
-        * [**Home**](<#home-page>)
+        * [**Home Page**](<#home-page>)
         * [**Navigation bar**](<#navigation-bar>)
         * [**Play Ideas**](<#play-ideas-page>)
         * [**Add, Update and Delete Play Idea**](#crud-play-idea>)
@@ -190,7 +190,9 @@ Colour Palette image
 
 ### Existing Features
 
-### Home 
+### Home Page 
+
+The home page of Its4kids Blog is designed to capture the essence of childhood, evoking a sense of adventure and joy. A dynamic hero section features a slider with captivating background images, immediately engaging visitors. The page presents a curated selection of play ideas, allowing parents and educators to easily explore new activities for children. An about section shares the blog's inspiration, created by a parent in rainy Ireland to provide a platform for sharing favorite activities. It is also fully responsive.
 
 <details><summary><b>Home Page Large Screen</b></summary>
 
@@ -202,8 +204,11 @@ Colour Palette image
 ![Home Page](./static/images/readme/home-page-mobile.jpg)
 </details><br/>
 
+[Back to Home Page](<#home-page>)
+
 
 ## Navigation bar
+
 
 
 <details><summary><b>Users Logged out</b></summary><br>
