@@ -277,12 +277,12 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 
 <summary><b>Large Screen</b></summary>
 
-![Large screen- User Logged out](./static/images/readme/add_play_idea.jpg)
+![Add a Play Idea](./static/images/readme/add_play_idea.jpg)
 <br/>
 
 <summary><b>Mobile</b></summary>
 
-![Mobile - User Logged out](./static/images/readme/add_play_idea-mobile.jpg)
+![Add a Play Idea Mobile](./static/images/readme/add_play_idea-mobile.jpg)
 </details><br/>
 
 
@@ -290,31 +290,30 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 
 <summary><b>Large Screen </b></summary>
 
-![Large screen - Logged in users](./static/images/readme/update_play_idea.jpg.jpg)
+![Update a Play Idea](./static/images/readme/update_play_idea.jpg)
 
 
 <summary><b>Mobile </b></summary><br>
 
-![Mobile - Logged in users](./static/images/readme/update_play_idea-mobile.jpg.jpg)
+![Update a Play Idea - Mobile](./static/images/readme/update_play_idea-mobile.jpg)
 </details><br/>
 
 <details><summary><b>Delete a Play Idea</b></summary><br>
 
 <summary><b>Large Screen </b></summary>
 
-![Large screen - Logged in users](./static/images/readme/delete_play_idea.jpg.jpg)
+![Delete a Play Idea](./static/images/readme/delete_play_idea.jpg)
 
 
 <summary><b>Mobile </b></summary><br>
 
-![Mobile - Logged in users](./static/images/readme/delete_play_idea-mobile.jpg.jpg)
+![Mobile - Logged in users](./static/images/readme/delete_play_idea-mobile.jpg)
 </details><br/>
 
 [Back to Play Ideas](<#play-ideas>)
 
 
 
-        * [**Add, Update and Delete Play Idea**](#crud-play-idea>)
         * [**Footer**](<#footer>)
         * [**User Profile**](<#user-page>)
         * [**Admin Page**](<#admin-page>)
