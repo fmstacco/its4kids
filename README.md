@@ -203,25 +203,36 @@ Colour Palette image
 </details><br/>
 
 
-
 ### Navigation
+
+#### **Navigation - Logged Out Users**
 
 <details><summary><b>Navigation Large screen - User Logged out</b></summary>
 
 ![Navigation Large - User Logged out](./static/images/readme/navbar_logged_out.jpg)
-</details><br/>
+<br/>
 
-<details><summary><b>Navigation Mobile - User Logged out</b></summary>
+<summary><b>Navigation Mobile - User Logged out</b></summary>
 
 ![Navigation Mobile - User Logged out](./static/images/readme/navbar_mobile_logged_out.jpg)
 </details><br/>
+
+#### **Navigation - Logged In Users**
+
+<details><summary><b>Navigation Mobile - User Logged out</b></summary>
+
+![Navigation Large - Logged in users](./static/images/readme/navbar_logged_in.jpg)
+
+
+![Navigation Mobile - Logged in users](./static/images/readme/navbar_mobile_logged_in.jpg)
+</details><br/>
+
 
 ### Play Ideas 
 
 
 
 
-        * [**Play Ideas**](<#play-ideas-page>)
         * [**Add, Update and Delete Play Idea**](#crud-play-idea>)
         * [**Footer**](<#footer>)
         * [**User Profile**](<#user-page>)
