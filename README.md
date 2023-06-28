@@ -323,6 +323,9 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 
 * It also contains the copyright notice, with the year and the company's name.  
 
+Please click on the link below to see the **Footer for large screen and mobile**:
+
+
 <details><summary><b>Footer</b></summary><br>
 
 <summary><b>Large Screen </b></summary>
