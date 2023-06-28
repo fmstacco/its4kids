@@ -313,8 +313,33 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 [Back to Play Ideas](<#play-ideas>)
 
 
+### Footer 
 
-        * [**Footer**](<#footer>)
+* The footer section contains the quick links to improve the user experience, redirecting back to the pages of the website, Home, Activities and My Account.
+
+* The social icons for Facebook, Instagram and Youtube take the user to another tab, thus, enhancing the user experience. They are there only for educational purposes. 
+
+* It contains also a "Subscribe to our Newsletter" features, which was made through the Mailchimp so it is posible to build an audience. 
+
+* It also contains the copyright notice, with the year and the company's name.  
+
+<details><summary><b>Footer</b></summary><br>
+
+<summary><b>Large Screen </b></summary>
+
+![Footer Large Screen](./static/images/readme/footer.jpg)
+
+
+<summary><b>Mobile </b></summary><br>
+
+![Footer Mobile](./static/images/readme/footer-mobile.jpg)
+</details><br/>
+
+
+[Back to Footer](<#footer>)
+
+
+
         * [**User Profile**](<#user-page>)
         * [**Admin Page**](<#admin-page>)
 
