@@ -197,6 +197,12 @@ Colour Palette image
 ![Home Page](.static/images/readme/home-page.jpg)
 </details><br/>
 
+<details><summary><b>Home Page Mobile</b></summary>
+
+![Home Page](.static/images/readme/home-page-mobile.jpg)
+</details><br/>
+
+
 
 ### Navigation
 
@@ -210,7 +216,11 @@ Colour Palette image
 ![Navigation Mobile - User Logged out](.static/images/readme/navbar_mobile_logged_out.jpg)
 </details><br/>
 
-        * [**Home**](<#home-page>)
+### Play Ideas 
+
+
+
+
         * [**Play Ideas**](<#play-ideas-page>)
         * [**Add, Update and Delete Play Idea**](#crud-play-idea>)
         * [**Footer**](<#footer>)
