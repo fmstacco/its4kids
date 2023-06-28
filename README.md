@@ -310,7 +310,7 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 ![Mobile - Logged in users](./static/images/readme/delete_play_idea-mobile.jpg)
 </details><br/>
 
-[Back to Play Ideas](<#play-ideas>)
+[Back to Add, Update and Delete Play Idea](<#crud-play-idea>)
 
 
 ### Footer 
@@ -341,16 +341,11 @@ Please click on the link below to see the **Footer for large screen and mobile**
 
 [Back to Footer](<#footer>)
 
-
+Feedback messages 
 
         * [**User Profile**](<#user-page>)
         * [**Admin Page**](<#admin-page>)
 
-
-[Back to Add, Update and Delete Play Idea](<#crud-play-idea>)
-
-
-### Footer
 
 ### User Profile
 
