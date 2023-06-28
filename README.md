@@ -194,12 +194,12 @@ Colour Palette image
 
 <details><summary><b>Home Page</b></summary>
 
-![Home Page](.static/images/readme/home-page.jpg)
+![Home Page](./static/images/readme/home-page.jpg)
 </details><br/>
 
 <details><summary><b>Home Page Mobile</b></summary>
 
-![Home Page](.static/images/readme/home-page-mobile.jpg)
+![Home Page](./static/images/readme/home-page-mobile.jpg)
 </details><br/>
 
 
@@ -208,12 +208,12 @@ Colour Palette image
 
 <details><summary><b>Navigation Large screen - User Logged out</b></summary>
 
-![Navigation Large - User Logged out](.static/images/readme/navbar_logged_out.jpg)
+![Navigation Large - User Logged out](./static/images/readme/navbar_logged_out.jpg)
 </details><br/>
 
 <details><summary><b>Navigation Mobile - User Logged out</b></summary>
 
-![Navigation Mobile - User Logged out](.static/images/readme/navbar_mobile_logged_out.jpg)
+![Navigation Mobile - User Logged out](./static/images/readme/navbar_mobile_logged_out.jpg)
 </details><br/>
 
 ### Play Ideas 
