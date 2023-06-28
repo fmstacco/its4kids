@@ -192,7 +192,7 @@ Colour Palette image
 
 ### Home 
 
-<details><summary><b>Home Page</b></summary>
+<details><summary><b>Home Page Large Screen</b></summary>
 
 ![Home Page](./static/images/readme/home-page.jpg)
 </details><br/>
@@ -203,28 +203,32 @@ Colour Palette image
 </details><br/>
 
 
-### Navigation
+## Navigation bar
 
-#### **Navigation - Logged Out Users**
 
-<details><summary><b>Navigation Large screen - User Logged out</b></summary>
+<details><summary><b>Users Logged out</b></summary><br>
 
-![Navigation Large - User Logged out](./static/images/readme/navbar_logged_out.jpg)
+<summary><b>Large Screen - Users Logged out</b></summary>
+
+![Large screen- User Logged out](./static/images/readme/navbar_logged_out.jpg)
 <br/>
 
-<summary><b>Navigation Mobile - User Logged out</b></summary>
+<summary><b>Mobile - Users Logged out</b></summary>
 
-![Navigation Mobile - User Logged out](./static/images/readme/navbar_mobile_logged_out.jpg)
+![Mobile - User Logged out](./static/images/readme/navbar_mobile_logged_out.jpg)
 </details><br/>
 
-#### **Navigation - Logged In Users**
 
-<details><summary><b>Navigation Mobile - User Logged out</b></summary>
+<details><summary><b>Users Logged in</b></summary><br>
 
-![Navigation Large - Logged in users](./static/images/readme/navbar_logged_in.jpg)
+<summary><b>Large Screen - Users Logged in</b></summary>
+
+![Large screen - Logged in users](./static/images/readme/navbar_logged_in.jpg)
 
 
-![Navigation Mobile - Logged in users](./static/images/readme/navbar_mobile_logged_in.jpg)
+<summary><b>Mobile - Users Logged in</b></summary><br>
+
+![Mobile - Logged in users](./static/images/readme/navbar_mobile_logged_in.jpg)
 </details><br/>
 
 
@@ -239,9 +243,6 @@ Colour Palette image
         * [**Admin Page**](<#admin-page>)
 
 
-### Home Page
-
-### Navigation Bar
 
 ### Add, Update and Delete Play Idea
 
