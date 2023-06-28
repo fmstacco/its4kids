@@ -190,6 +190,34 @@ Colour Palette image
 
 ### Existing Features
 
+### Home 
+
+<details><summary><b>Home Page</b></summary>
+
+![Home Page](.static/images/readme/home-page.jpg)
+</details><br/>
+
+
+### Navigation
+
+<details><summary><b>Navigation Large screen - User Logged out</b></summary>
+
+![Navigation Large - User Logged out](.static/images/readme/navbar_logged_out.jpg)
+</details><br/>
+
+<details><summary><b>Navigation Mobile - User Logged out</b></summary>
+
+![Navigation Mobile - User Logged out](.static/images/readme/navbar_mobile_logged_out.jpg)
+</details><br/>
+
+        * [**Home**](<#home-page>)
+        * [**Play Ideas**](<#play-ideas-page>)
+        * [**Add, Update and Delete Play Idea**](#crud-play-idea>)
+        * [**Footer**](<#footer>)
+        * [**User Profile**](<#user-page>)
+        * [**Admin Page**](<#admin-page>)
+
+
 ### Home Page
 
 ### Navigation Bar
