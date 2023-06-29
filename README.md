@@ -426,11 +426,11 @@ The Its4kids website has gone through intensive tests throughout its pages and s
 
 * Python Validation - Blog App
 
-![PEP8 validation image - Blog App ](./static/images/readme/python-ci-validation-blog-app.png) 
+![PEP8 validation image - Blog App ](./static/images/readme/python-ci-validation-blog-app.jpg) 
 
 * Python Validation - Profiles App
 
-![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.png) 
+![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.jpg) 
 
 [Back to testing](<#testing>)
 
