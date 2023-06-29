@@ -241,6 +241,10 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 
 ### Play Ideas 
 
+The Play Ideas page shows the play ideas from the most up-to-date to the last up-to-date, totaling 9 posts on each page. It has the same grid scheme as the Home Page, offering a visually pleasing experience. Users can easily navigate between pages by clicking the "Next" button to advance to the next page and the "Preview" button to return to the previous page.
+
+Please click on the link below to see the *Play Ideas page* for large screen and mobile:
+
 
 <details><summary><b>Users Logged out</b></summary><br>
 
@@ -275,6 +279,9 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 
 <details><summary><b>Add a Play Idea</b></summary><br>
 
+Please click on the link below to see the *Add a Play Idea page* for large screen and mobile:
+
+
 <summary><b>Large Screen</b></summary>
 
 ![Add a Play Idea](./static/images/readme/add_play_idea.jpg)
@@ -288,6 +295,9 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 
 <details><summary><b>Update a Play Idea</b></summary><br>
 
+Please click on the link below to see the *Update a Play Idea* for large screen and mobile:
+
+
 <summary><b>Large Screen </b></summary>
 
 ![Update a Play Idea](./static/images/readme/update_play_idea.jpg)
@@ -299,6 +309,8 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 </details><br/>
 
 <details><summary><b>Delete a Play Idea</b></summary><br>
+
+Please click on the link below to see the *Delete a Play Idea* for large screen and mobile:
 
 <summary><b>Large Screen </b></summary>
 
