@@ -183,10 +183,7 @@ Please click on the links below to see the **wireframes** for large screen and m
 | As a Site User | I can receive notifications for new comments or likes on play ideas I have interacted with | future features |
 | As a Site User | I can see a list of play ideas by categories | future features |
 | As a Site User | I can update or delete my comments | future features |
-| As a Site User | I want to be able to rate and review a play idea | future features |
-| As a Site User | I want to be able to rate and review a play idea | future features |
-
-
+| As a Site User | I want to be able to rate and review a play idea | future features 
 
 
 ## Site Structure
