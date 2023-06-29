@@ -118,6 +118,8 @@ Models used:
 
 The wireframes for Its4kids website were developed on [Balsamiq](https://balsamiq.com). They are of low fidelity as there have been modifications throughout the development of the blog. 
 
+Please click on the links below to see the **wireframes** for large screen and mobile:
+
 
 <details><summary><b>Home</b></summary>
 
@@ -194,6 +196,9 @@ Colour Palette image
 
 The home page of Its4kids Blog is designed to capture the essence of childhood, evoking a sense of adventure and joy. A dynamic hero section features a slider with captivating background images, immediately engaging visitors. The page presents a curated selection of play ideas, allowing parents and educators to easily explore new activities for children. An about section shares the blog's inspiration, created by a parent in rainy Ireland to provide a platform for sharing favorite activities. It is also fully responsive.
 
+Please click on the links below to see the **Home Page** for large screen and mobile:
+
+
 <details><summary><b>Home Page Large Screen</b></summary>
 
 ![Home Page](./static/images/readme/home-page.jpg)
@@ -210,6 +215,9 @@ The home page of Its4kids Blog is designed to capture the essence of childhood, 
 ## Navigation bar
 
 The Its4kids Blog ensures a smooth user experience with a consistent and responsive navigation design across all pages. The header displays the logo and a navigation menu, allowing easy access to different sections of the site. Clicking on the logo redirects users back to the Home page. To enhance usability, hover effects have been implemented on the menu items, improving the overall user experience.
+
+Please click on the links below to see the **Navigation bar** for large screen and mobile:
+
 
 <details><summary><b>Users Logged out</b></summary><br>
 
@@ -243,7 +251,7 @@ The Its4kids Blog ensures a smooth user experience with a consistent and respons
 
 The Play Ideas page shows the play ideas from the most up-to-date to the last up-to-date, totaling 9 posts on each page. It has the same grid scheme as the Home Page, offering a visually pleasing experience. Users can easily navigate between pages by clicking the "Next" button to advance to the next page and the "Preview" button to return to the previous page.
 
-Please click on the link below to see the *Play Ideas page* for large screen and mobile:
+Please click on the links below to see the **Play Ideas page** for large screen and mobile:
 
 
 <details><summary><b>Users Logged out</b></summary><br>
@@ -276,10 +284,10 @@ Please click on the link below to see the *Play Ideas page* for large screen and
 
 ### Add, Update and Delete Play Idea
 
+Please click on the link below to see the **Add, Update and Delete a Play Idea page** for large screen and mobile:
+
 
 <details><summary><b>Add a Play Idea</b></summary><br>
-
-Please click on the link below to see the *Add a Play Idea page* for large screen and mobile:
 
 
 <summary><b>Large Screen</b></summary>
@@ -295,8 +303,6 @@ Please click on the link below to see the *Add a Play Idea page* for large scree
 
 <details><summary><b>Update a Play Idea</b></summary><br>
 
-Please click on the link below to see the *Update a Play Idea* for large screen and mobile:
-
 
 <summary><b>Large Screen </b></summary>
 
@@ -310,7 +316,6 @@ Please click on the link below to see the *Update a Play Idea* for large screen 
 
 <details><summary><b>Delete a Play Idea</b></summary><br>
 
-Please click on the link below to see the *Delete a Play Idea* for large screen and mobile:
 
 <summary><b>Large Screen </b></summary>
 
@@ -353,10 +358,26 @@ Please click on the link below to see the **Footer for large screen and mobile**
 
 [Back to Footer](<#footer>)
 
-Feedback messages 
+#### Feedback messages 
 
-        * [**User Profile**](<#user-page>)
-        * [**Admin Page**](<#admin-page>)
+Feedback messages (flash messages) has been implementes to this website. 
+
+Please click on the link below to see examples of **Feedback messages **:
+
+
+<details><summary><b>Feedback messages</b></summary><br>
+
+
+![Feedback Messages](./static/images/readme/feedback-messages.jpg)
+
+</details><br/>
+
+
+## User Profile Page
+
+
+
+## Admin Page
 
 
 ### User Profile
