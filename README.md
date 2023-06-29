@@ -571,11 +571,22 @@ Below are some examples of features tested manually.
 
 | Expectation                         | Result                          |
 | :---------------------------------: | :------------------------------:|
-|  **[Quiz Website]** | |
-|  **[Quiz Screen]**| |
-|  **[Results Screen]**| |
-| **[Contact Screen]**|  |
-| **[Form Destination Page]** | |
+|  As a Site User I can view a list of play ideas so that I can select one to read | **[Play Ideas Page]**  |
+|  As a Site User I can click on a play idea that I can read the full play idea | **[Play Idea Detail Page]**| 
+|  As a Site User I can view the number of likes on each play idea so that I can see which is the most popular or viral |**[Home, Play Ideas and Detail Pages]**|
+| As a Site User I can view comments on an individual play ideas so that I can read the conversation | **[Play Idea Detail Page]**| 
+|   As a Site User I can register an account so that I can add, update, delete play ideas, comment and like them and also have a profile | **[Register/Sign Up Page]**| 
+| As a Site User I can leave comments on a play idea so that I can be involved in the conversation |**[Play Idea Detail Page]** |
+| As a Site User I can like or unlike a play idea so that I can interact with the content | **[Play Idea Detail Page]** |
+| As a Site User I can access the blog on different devices (mobile, tablet, desktop) for a seamless browsing experience | &check; |
+| As a Site User I can create a profile by adding my bio and picture profile so that other users can read about who I am |**[Profile Page]** |
+| As a Site User I can update a profile by updating my bio and picture profile so that upload a better bio and/or picture profile, or even remove it. | **[Profile Page]** |
+| As a Site User I can see the play ideas I have created so that I can update or delete them | **[Profile Page]**  |
+| As a Site User I can subscribe to a newsletter so that I can receive monthly emails with the new play ideas |**[Footer ]**  |
+| As a Site User I can log out from the Its4kids blog so that I can feel safe that nobody can access my information | **[Logout page]** |
+| As a Site User I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | **[Flash messages]** |
+
+
 
 
 [Back to top](<#contents>)
