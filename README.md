@@ -467,8 +467,12 @@ Below are some examples of features tested manually.
 
 | Test Case         | Description                                         | Expected Result                            | Pass/Fail |
 |-------------------|-----------------------------------------------------|--------------------------------------------|-----------|
+| Page 404         | Verify if the 404 page is working     | Typing in a incorrect URL on the page loads the 404 error page     |     pass      |
+| Logo        | Verify the nav logo loads the home page      | User is redirected to home page when clicking the nav logo     |     pass      |
+| Home button         | Verify the home button loads the home page     | User is redirected to home page when clicking the home button     |     pass      |
 | Home Page         | Verify the content and layout of the home page      | All sections and elements are displayed     |     pass      |
-| Blog Page         | Check if the blog posts are listed correctly        | Blog posts are displayed in a grid layout   |     pass      |
+| Play ideas button         | Verify the play ideas button loads the play ideas list       | User is redirected to play ideas page when clicking the play ideas button     |     pass      |
+| Play Ideas Page         | Check if the play ideas are listed correctly        | Play ideas are displayed in a grid layout   |     pass      |
 | Post Detail Page       | Ensure the post detail page shows correct content   | Post content, comments, and likes are shown  |  pass         |
 | User Registration | Test the user registration process                  | User can register successfully             |  pass         |
 | User Login        | Test the user login process                         | User can log in successfully                |   pass        |
