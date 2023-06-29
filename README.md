@@ -569,6 +569,8 @@ Below are some examples of features tested manually.
 
 ### Testing User Stories
 
+#### **Site User**
+
 | Expectation                         | Result                          |
 | :---------------------------------: | :------------------------------:|
 |  As a Site User I can view a list of play ideas so that I can select one to read | **[Play Ideas Page]**  |
@@ -576,6 +578,7 @@ Below are some examples of features tested manually.
 |  As a Site User I can view the number of likes on each play idea so that I can see which is the most popular or viral |**[Home, Play Ideas and Detail Pages]**|
 | As a Site User I can view comments on an individual play ideas so that I can read the conversation | **[Play Idea Detail Page]**| 
 |   As a Site User I can register an account so that I can add, update, delete play ideas, comment and like them and also have a profile | **[Register/Sign Up Page]**| 
+| As a Site User | I can create, read, update and delete play ideas so that I can manage my blog content | **[Add, Update, Delete Play Idea page]** |
 | As a Site User I can leave comments on a play idea so that I can be involved in the conversation |**[Play Idea Detail Page]** |
 | As a Site User I can like or unlike a play idea so that I can interact with the content | **[Play Idea Detail Page]** |
 | As a Site User I can access the blog on different devices (mobile, tablet, desktop) for a seamless browsing experience | &check; |
@@ -586,7 +589,14 @@ Below are some examples of features tested manually.
 | As a Site User I can log out from the Its4kids blog so that I can feel safe that nobody can access my information | **[Logout page]** |
 | As a Site User I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | **[Flash messages]** |
 
+#### **Site Admin**
 
+| Expectation                         | Result                          |
+| :---------------------------------: | :------------------------------:|
+| As a Site Admin I can create, read, update and delete play ideas so that I can manage my blog content | **[Add, Update, Delete Play Idea page]**  |
+| As a Site Admin I can create draft play ideas so that I can finish writing the content later| **[Add, Update, Delete Play Idea page]**  |
+| As a Site Admin I can create new categories through django admin dashboard so that the play ideas are organized by categories | **[Django Dashboard]**  |
+| As a Site Admin I can approve or disapprove comments on play ideas so that I can provide a safe environment for the users | **[Django Dashboard]**|
 
 
 [Back to top](<#contents>)
