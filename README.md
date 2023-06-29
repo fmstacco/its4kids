@@ -144,23 +144,47 @@ Please click on the links below to see the **wireframes** for large screen and m
 ## User Stories
 
 
-| Epic                  | Story                                                         | Task                                                                                      |
-|-----------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-| Admin Account management      | As a site user, I can create an account and/or login to my account so that I can access features for logged users.                   | - Set up a user authentication system (allauth).                                                     |
-|                       |   As a site user, I can to access my profile so that I can create my bio, add a profile image, update it and also see the play ideas I have created.                                                           |      - Create a profile page (profile app)                                             |
-|                       |                                                               |                                                                 |
-|                       |                                                               |                                                                    
+### Site User
+|  | | |
+|:-------:|:--------|:--------|
+| As a Site User | I can view a list of play ideas so that I can select one to read | &check; |
+| As a Site User | I can click on a play idea that I can read the full play idea | &check; |
+| As a Site User | I can view the number of likes on each play idea so that I can see which is the most popular or viral | &check; |
+| As a Site User | I can view comments on an individual play ideas so that I can read the conversation | &check; |
+| As a Site User | I can view the number of likes on each review so that I can see how popular a specific review is | &check; |
+| As a Site User | I can register an account so that I can add, update, delete play ideas, comment and like them and also have a profile| &check; |
+| As a Site User | I can leave comments on a play idea so that I can be involved in the conversation | &check; |
+| As a Site User | I can like or unlike a play idea so that I can interact with the content | &check; |
+| As a Site User | I can access the blog on different devices (mobile, tablet, desktop) for a seamless browsing experience | &check; |
+| As a Site User | I can create a profile by adding my bio and picture profile so that other users can read about who I am | &check; |
+| As a Site User | I can update a profile by updating my bio and picture profile so that upload a better bio and/or picture profile, or even remove it. | &check; |
+| As a Site User | I can see the play ideas I have created so that I can update or delete them | &check; |
+| As a Site User | I can subscribe to a newsletter so that I can receive monthly emails with the new play ideas | &check; |
+| As a Site User | I can log out from the Its4kids blog so that I can feel safe that nobody can access my information | &check; |
+| As a Site User | I can get visual feedback when interacting with the content so that I can be sure how I have interacted with the page | &check; |
+
+### Site Admin
+
+|  | | |
+|:-------:|:--------|:--------|
+| As a Site Admin | I can create, read, update and delete play ideas so that I can manage my blog content | &check; |
+| As a Site Admin | I can create draft play ideas so that I can finish writing the content later| &check; |
+| As a Site Admin | I can create new categories through django admin dashboard so that the play ideas are organized by categories | &check; |
+| As a Site Admin | I can approve or disapprove comments on play ideas so that I can provide a safe environment for the users | &check; |
 
 
-
-
-
-
-
-
-
-
-
+### Site User (Will not have)
+|  | | |
+|:-------:|:--------|:--------|
+| As a Site User | I can search for play ideas based on specific criteria (e.g., age, category) to find relevant content | future features  |
+| As a Site User | I can share play ideas on social media platforms to inspire others | future features  |
+| As a Site User | I can bookmark or save my favorite play ideas for future reference | future features |
+| As a Site User | I can report inappropriate or offensive content for moderation | future features |
+| As a Site User | I can receive notifications for new comments or likes on play ideas I have interacted with | future features |
+| As a Site User | I can see a list of play ideas by categories | future features |
+| As a Site User | I can update or delete my comments | future features |
+| As a Site User | I want to be able to rate and review a play idea | future features |
+| As a Site User | I want to be able to rate and review a play idea | future features |
 
 
 
@@ -284,7 +308,7 @@ Please click on the links below to see the **Play Ideas page** for large screen 
 
 ### Add, Update and Delete Play Idea
 
-Please click on the link below to see the **Add, Update and Delete a Play Idea page** for large screen and mobile:
+Please click on the links below to see the **Add, Update and Delete a Play Idea page** for large screen and mobile:
 
 
 <details><summary><b>Add a Play Idea</b></summary><br>
@@ -362,7 +386,7 @@ Please click on the link below to see the **Footer for large screen and mobile**
 
 Feedback messages (flash messages) has been implementes to this website. 
 
-Please click on the link below to see examples of **Feedback messages **:
+Please click on the links below to see examples of **Feedback messages **:
 
 
 <details><summary><b>Feedback messages</b></summary><br>
@@ -377,7 +401,7 @@ Please click on the link below to see examples of **Feedback messages **:
 
 The profile page provides users with the flexibility to personalize their bio and profile picture by allowing them to add, update, and clear (delete) content. Additionally, it features a convenient link to the play ideas they have created. Clicking on this link redirects them to the post detail page, where they can easily update or delete their play ideas as desired.
 
-Please click on the link below to see the **User Profile Page for large screen and mobile**:
+Please click on the links below to see the **User Profile Page for large screen and mobile**:
 
 
 <details><summary><b>Profile Page</b></summary><br>
@@ -423,8 +447,6 @@ Its4kids Blog can be improved in the future through new features to be developed
 **Categories** - categories model currently only alows the admin to add categories by using the django admin page. It is crucial to implement categories list page so the users can access all the play ideas within a category. 
 
 [Back to top](<#contents>)
-
-
 
 ## Technologies Used
 
