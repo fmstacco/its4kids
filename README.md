@@ -432,7 +432,7 @@ The Its4kids website has gone through intensive tests throughout its pages and s
 
 ![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.png) 
 
-[Back to top](<#contents>)
+[Back to testing](<#testing>)
 
 
 ### Browser Testing
