@@ -513,10 +513,23 @@ Below are some examples of features tested manually.
 
 ### Bugs Fixed
 
+Along the development of Its4kids application some error appeared during the debug process which were corrected, for example programming errors due to not running migrations, path errors, among others. Also during the website testing process some smaller errors appeared on the code validation and they were immediately corrected. 
+
+Follow below some examples:
+
 ![Home Page - Bugs Fixed ](./static/images/readme/html-bugs-fixed.png) 
+
+![Programming Error - Bugs Fixed ](./static/images/readme/fixed-bugs-programmingError.jpg) 
+
+![Redirect - Bugs Fixed ](./static/images/readme/fixed-bugs-redirect.jpg) 
+
+![IntegrityError - Bugs Fixed ](./static/images/readme/bug-fixed-integrityError.png) 
 
 
 ### Bugs Unfixed
+
+
+
 
 
 ### Additional Testing
