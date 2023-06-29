@@ -375,6 +375,22 @@ Please click on the link below to see examples of **Feedback messages **:
 
 ## User Profile Page
 
+The profile page provides users with the flexibility to personalize their bio and profile picture by allowing them to add, update, and clear (delete) content. Additionally, it features a convenient link to the play ideas they have created. Clicking on this link redirects them to the post detail page, where they can easily update or delete their play ideas as desired.
+
+Please click on the link below to see the **User Profile Page for large screen and mobile**:
+
+
+<details><summary><b>Profile Page</b></summary><br>
+
+<summary><b>Large Screen </b></summary>
+
+![Profile Page Large Screen](./static/images/readme/profile-page.jpg)
+
+
+<summary><b>Mobile </b></summary><br>
+
+![Profile Page Mobile](./static/images/readme/profile-page-mobile.jpg)
+</details><br/>
 
 
 ## Admin Page
