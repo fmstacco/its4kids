@@ -526,11 +526,6 @@ Follow below some examples:
 ![IntegrityError - Bugs Fixed ](./static/images/readme/bug-fixed-integrityError.png) 
 
 
-### Bugs Unfixed
-
-
-
-
 
 ### Additional Testing
 
@@ -542,13 +537,14 @@ To check the accessibility in color regarding was used the [A11y](https://color.
 
 ### Lighthouse
 
-A test on [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) was also done through  Chrome Developer Tools.
+A test was conducted using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) within Chrome Developer Tools. 
 
 It tests each of the pages for ***performance, accessibility, best practices and, SEO***
 
-![Lighthouse test results](.static/images/readme/lighthouse-desktop.jpg)
+The performance score of 73% can be significantly enhanced by simply resizing all the images used on the website.
 
-![Lighthouse test results](.static/images/readme/lighthouse-mobile.jpg)
+![Lighthouse test results](./static/images/readme/lighthouse-desktop.jpg)
+
 
 [Back to top](<#contents>)
 
