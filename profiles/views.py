@@ -25,12 +25,19 @@ def profile(request):
         user_profile = None
 
     if request.method == 'POST':
-        form = UserProfileForm(request.POST, request.FILES, instance=user_profile)
+        form = UserProfileForm(
+            request.POST,
+            request.FILES,
+            instance=user_profile
+            )
         if form.is_valid():
             profile = form.save(commit=False)
             profile.user = request.user
             profile.save()
-            messages.success(request, 'Your profile has been updated successfully!')
+            messages.success(
+                request,
+                'Your profile has been updated successfully!'
+            )
             return redirect('profiles:profile')
     else:
         form = UserProfileForm(instance=user_profile)
@@ -45,5 +52,3 @@ def profile(request):
 
     }
     return render(request, 'profile.html', context)
-
-    
