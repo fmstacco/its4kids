@@ -420,12 +420,17 @@ The Its4kids website has gone through intensive tests throughout its pages and s
 
 **JavaScript validation image**
 
-![JavaScript validation image ](./static/images/readme/jshint-javascript-validator.png) 
+![JavaScript validation image ](./static/images/readme/javascript-validation.jpg) 
 
-**PEP8 validation image**
+**PEP8 CI Python Linther**
 
-![PEP8 validation image ](./static/images/readme/pep8-python-validator.png) 
+* Python Validation - Blog App
 
+![PEP8 validation image - Blog App ](./static/images/readme/python-ci-validation-blog-app.png) 
+
+* Python Validation - Profiles App
+
+![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.png) 
 
 [Back to top](<#contents>)
 

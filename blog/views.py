@@ -72,7 +72,7 @@ class PostDetail(View):
 
 
 class PostLike(View):
-    
+
     def post(self, request, slug, *args, **kwargs):
         post = get_object_or_404(Post, slug=slug)
         if post.likes.filter(id=request.user.id).exists():
@@ -97,10 +97,10 @@ class AddPostView(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
     """
     Logged users can add a post / activity to the blog
     """
-    
+
     model = Post
     template_name = 'add_post.html'
-    fields = 'title', 'category', 'featured_image', 'content', 
+    fields = 'title', 'category', 'featured_image', 'content',
 
     def form_valid(self, form):
         if self.request.POST.get('status'):
@@ -110,11 +110,15 @@ class AddPostView(LoginRequiredMixin, SuccessMessageMixin, generic.CreateView):
         return super().form_valid(form)
 
 
-class UpdatePostView(UserPassesTestMixin, SuccessMessageMixin, generic.UpdateView):
+class UpdatePostView(
+    UserPassesTestMixin,
+    SuccessMessageMixin,
+    generic.UpdateView
+):
     """
     Logged users can update a post / activity they posted the blog
     """
-    
+
     model = Post
     template_name = 'update_post.html'
     fields = 'title', 'category', 'featured_image', 'content',
@@ -132,13 +136,18 @@ class UpdatePostView(UserPassesTestMixin, SuccessMessageMixin, generic.UpdateVie
         return super().form_valid(form)
 
 
-class DeletePostView(LoginRequiredMixin, UserPassesTestMixin, SuccessMessageMixin, generic.DeleteView):
+class DeletePostView(
+    LoginRequiredMixin,
+    UserPassesTestMixin,
+    SuccessMessageMixin,
+        generic.DeleteView):
     """
     Logged users can delete a post / activity they posted in the blog
     """
     model = Post
     template_name = 'delete_post.html'
-    success_url = reverse_lazy('blog')  # Redirect URL after successful deletion
+    success_url = reverse_lazy(
+        'blog')
     success_message = "Post deleted successfully!"
 
     def test_func(self):
@@ -155,5 +164,3 @@ def category_posts(request, category_id):
     posts = Post.objects.filter(category=category)
     context = {'category': category, 'posts': posts}
     return render(request, 'category_posts.html', context)
-
-
