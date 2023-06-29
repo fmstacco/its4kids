@@ -395,10 +395,12 @@ Please click on the link below to see the **User Profile Page for large screen a
 
 ## Admin Page
 
+* The admin user can add play ideas and they have the option to choose if it is a draft or is to be published. 
 
-### User Profile
+* The admin user can add a new category through the django admin panel.
 
-### Admin Page
+* The admin user can approve comments through the django admin panel. 
+
 
 ## Features left to implementation 
 
