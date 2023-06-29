@@ -467,29 +467,28 @@ Its4kids website has been extensively tested both on the Gitpod terminal and the
 All tests made aimed to achieve the best user experience in system navigation, so that the user can follow an intuitive and easy flow at all system contact points.
 Below are some examples of features tested manually.  
 
-
-| Test Case         | Description                                         | Expected Result                            | Pass/Fail |
-|-------------------|-----------------------------------------------------|--------------------------------------------|-----------|
-| Page 404         | Verify if the 404 page is working     | Typing in a incorrect URL on the page loads the 404 error page     |     pass      |
-| Logo        | Verify the nav logo loads the home page      | User is redirected to home page when clicking the nav logo     |     pass      |
-| Home button         | Verify the home button loads the home page     | User is redirected to home page when clicking the home button     |     pass      |
-| Home Page         | Verify the content and layout of the home page      | All sections and elements are displayed     |     pass      |
-| Play ideas button         | Verify the play ideas button loads the play ideas list       | User is redirected to play ideas page when clicking the play ideas button     |     pass      |
-| Play Ideas Page         | Check if the play ideas are listed correctly        | Play ideas are displayed in a grid layout   |     pass      |
-| Post Detail Page       | Ensure the post detail page shows correct content   | Post content, comments, and likes are shown  |  pass         |
-| User Registration | Test the user registration process                  | User can register successfully             |  pass         |
-| User Login        | Test the user login process                         | User can log in successfully                |   pass        |
-| Add Post          | Test the functionality to add a new play idea for logged users            | New play idea is added to the blog               |    pass       |
-| Update Post       | Test updating an existing play idea                     | Play idea is updated successfully        |   pass        |
-| Delete Post       | Test deleting a play idea                                | Play idea is deleted from the blog               |  pass         |
-| Nav Links Footer      | Check if the nav links on footer is working         | User is redirected to the correspondent page when clicking on any footer navlink             |  pass         |
-| Social links          | Social links in the footer opens in a new window    | User is redirected to social links website in a new window     |     pass      |
-| Subscribe Newsletter   | Test the subscribe newsletter feature                       | User can submit their email and be redirected to a thank you page       |    pass       |
-| Profile Page   | Check if the profile page is loading correctly                       | User can see the profile page by clicking on profile link       |    pass       |
-| Update Profile  | Check if users can add bio and picture to their profile                      | Users can upload a profile pic and bio to their profile       |    pass       |
-| Clear Profile  | Check if users can clear their bio and picture uploaded previous to their profile returning to default page                     | Users can clear or delete their profile pic and bio previously uploaded to their profile       |    pass       |
-| Users posts - Profile  | Check if users can see and click their own added play ideas                     | Users can see and access the link of their own added play ideas       |    pass       |
-
+| Test Case              | Description                                                         | Expected Result                                             | Pass/Fail |
+|------------------------|---------------------------------------------------------------------|-------------------------------------------------------------|-----------|
+| Page 404               | Verify if the 404 page is working                                    | Typing in an incorrect URL loads the 404 error page        | pass      |
+| Logo                   | Verify if the logo redirects to the home page                        | Clicking the logo redirects the user to the home page       | pass      |
+| Home Button            | Verify if the home button redirects to the home page                 | Clicking the home button redirects the user to the home page | pass      |
+| Home Page              | Verify the content and layout of the home page                       | All sections and elements are displayed                    | pass      |
+| Play Ideas Button      | Verify if the play ideas button loads the play ideas list            | Clicking the play ideas button displays the play ideas list | pass      |
+| Play Ideas Page        | Check if the play ideas are listed correctly                         | Play ideas are displayed in a grid layout                  | pass      |
+| Post Detail Page       | Ensure the post detail page shows correct content                    | Post content, comments, and likes are shown                 | pass      |
+| User Registration      | Test the user registration process                                   | User can successfully register                              | pass      |
+| User Login             | Test the user login process                                          | User can successfully log in                                 | pass      |
+| Add Post               | Test the functionality to add a new play idea for logged users       | New play idea is added to the blog                          | pass      |
+| Update Post            | Test updating an existing play idea                                  | Play idea is updated successfully                           | pass      |
+| Delete Post            | Test deleting a play idea                                            | Play idea is deleted from the blog                          | pass      |
+| Nav Links Footer       | Check if the navigation links in the footer are working              | Clicking on a footer nav link redirects to the page         | pass      |
+| Social Links           | Test if social links in the footer open in a new window              | Clicking on a social link opens a new window                | pass      |
+| Subscribe Newsletter   | Test the subscribe newsletter feature                                | User can submit their email and is redirected to a thank you page | pass |
+| Profile Page           | Check if the profile page is loading correctly                       | User can view their profile page                            | pass      |
+| Update Profile         | Check if users can update their profile with a bio and picture       | Users can upload a profile picture and add a bio            | pass      |
+| Clear Profile          | Check if users can clear their bio and picture from their profile    | Users can remove their profile picture and bio              | pass      |
+| User's Posts - Profile | Check if users can see and access their own added play ideas         | Users can view and access their own play ideas              | pass      |
+| Feedback Messages      | Check if feedback messages are displayed in relevant submissions     | Users receive appropriate feedback messages                 | pass      |
 
 
 
