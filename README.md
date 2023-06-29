@@ -365,8 +365,13 @@ Its4kids Blog can be improved in the future through new features to be developed
 
 **Commenting functionality** - it’s very important to allow users to update and delete their comments. 
 
-[Back to top](<#contents>)
+**Back to top button Play Ideas page** - On the play ideas page for mobile it is crucial a back to top button. Due to time constrains it has not been implemented.
 
+**Admin Panel** - An admin panel page (front end) is critical so the admin can publish the play ideas sent by users, also approve comments, add categories and so on.
+
+**Categories** - categories model currently only alows the admin to add categories by using the django admin page. It is crucial to implement categories list page so the users can access all the play ideas within a category. 
+
+[Back to top](<#contents>)
 
 
 
