@@ -464,18 +464,23 @@ Its4kids website has been extensively tested both on the Gitpod terminal and the
 All tests made aimed to achieve the best user experience in system navigation, so that the user can follow an intuitive and easy flow at all system contact points.
 Below are some examples of features tested manually.  
 
-| Feature            |  Expect                           |  Result              |
-| ------------------ | --------------------------------- | ---------------------|
-| Run Task Tracker   |  Display welcome screen           |         Pass         | 
-| New user press [1] |  Display welcome new user menu    |         Pass         |
-| Returning user [2] |  Display returning user menu      |         Pass         |
-|  Invalid inputs    |  Messages inputs not valid        |         Pass         |
-|  Add new task      |  Requests inputs to be filled     |         Pass         | 
-|  Store task sheets |  Add task on google shets         |         Pass         | 
-|  Delete task       |  Requests task code to delete     |         Pass         | 
-| Delete task sheets |  Delete task on google shets      |         Pass         |
-|  Save task         |  Show saved tasks/Retrieve sheets |         Pass         |
-|  Exit screen       |  Display end screen when typed [4]|         Pass         |
+
+| Test Case         | Description                                         | Expected Result                            | Pass/Fail |
+|-------------------|-----------------------------------------------------|--------------------------------------------|-----------|
+| Home Page         | Verify the content and layout of the home page      | All sections and elements are displayed     |     pass      |
+| Blog Page         | Check if the blog posts are listed correctly        | Blog posts are displayed in a grid layout   |     pass      |
+| Post Detail Page       | Ensure the post detail page shows correct content   | Post content, comments, and likes are shown  |  pass         |
+| User Registration | Test the user registration process                  | User can register successfully             |  pass         |
+| User Login        | Test the user login process                         | User can log in successfully                |   pass        |
+| Add Post          | Test the functionality to add a new play idea for logged users            | New play idea is added to the blog               |    pass       |
+| Update Post       | Test updating an existing play idea                     | Play idea is updated successfully        |   pass        |
+| Delete Post       | Test deleting a play idea                                | Play idea is deleted from the blog               |  pass         |
+| Subscribe Newsletter   | Test the subscribe newsletter feature                       | User can submit their email and be redirected to a thank you page       |    pass       |
+
+
+
+
+
 
 
 ### Testing User Stories
