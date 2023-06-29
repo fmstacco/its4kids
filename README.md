@@ -403,7 +403,7 @@ Its4kids Blog can be improved in the future through new features to be developed
 
 ### Code Validation
 
-The Its4kids website has gone through intensive tests throughout its pages and sections/screens.The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [PEP8](http://ww1.pep8online.com/) to validate Python. Additional tests, such as browser tests, manual testing, responsiveness test, testing user stories among others have been carried on as shown below. 
+The Its4kids website has gone through intensive tests throughout its pages and sections/screens.The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) has been used to validate the CSS, [W3C HTML Validator](https://validator.w3.org/) has been used to validate the HTML, [JSHint](https://jshint.com/) to validate JavaScript and [CI Python Linther](https://pep8ci.herokuapp.com/) to validate Python. Additional tests, such as browser tests, manual testing, responsiveness test, testing user stories among others have been carried on as shown below. 
 
 **HTML validation** 
 
@@ -424,11 +424,14 @@ The Its4kids website has gone through intensive tests throughout its pages and s
 
 **PEP8 CI Python Linther**
 
-* Python Validation - Blog App
+CI Python Linther [cipythonlinther](https://pep8ci.herokuapp.com/) was used to validate Python code as at the time of this project submission the validator PEP8 [pep8online](http://pep8online.com/) is offline. I have tested the following Python files:
+
+
+* **Blog App - Python Validation**
 
 ![PEP8 validation image - Blog App ](./static/images/readme/python-ci-validation-blog-app.jpg) 
 
-* Python Validation - Profiles App
+* **Profiles App - Python Validation**
 
 ![PEP8 validation image - Profiles App ](./static/images/readme/python-ci-validation-profiles-app.jpg) 
 
@@ -479,10 +482,13 @@ Below are some examples of features tested manually.
 | Add Post          | Test the functionality to add a new play idea for logged users            | New play idea is added to the blog               |    pass       |
 | Update Post       | Test updating an existing play idea                     | Play idea is updated successfully        |   pass        |
 | Delete Post       | Test deleting a play idea                                | Play idea is deleted from the blog               |  pass         |
+| Nav Links Footer      | Check if the nav links on footer is working         | User is redirected to the correspondent page when clicking on any footer navlink             |  pass         |
+| Social links          | Social links in the footer opens in a new window    | User is redirected to social links website in a new window     |     pass      |
 | Subscribe Newsletter   | Test the subscribe newsletter feature                       | User can submit their email and be redirected to a thank you page       |    pass       |
-
-
-
+| Profile Page   | Check if the profile page is loading correctly                       | User can see the profile page by clicking on profile link       |    pass       |
+| Update Profile  | Check if users can add bio and picture to their profile                      | Users can upload a profile pic and bio to their profile       |    pass       |
+| Clear Profile  | Check if users can clear their bio and picture uploaded previous to their profile returning to default page                     | Users can clear or delete their profile pic and bio previously uploaded to their profile       |    pass       |
+| Users posts - Profile  | Check if users can see and click their own added play ideas                     | Users can see and access the link of their own added play ideas       |    pass       |
 
 
 
